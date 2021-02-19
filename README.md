@@ -25,4 +25,5 @@ Check out our [maintainer guide](./maintainer-guide.md)
 
 ## Thanks to all our supporters for this event!
 
-- [Xanadu]()
+- [Unitary Fund](https://unitary.fund/)
+- [Xanadu](https://xanadu.ai/)
