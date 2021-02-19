@@ -1,6 +1,12 @@
-# UnitaryHACK
+# UnitaryHACK 2021, April 16-30
 
-Welcome to your hub of information about the UnitaryHACK, a quantum open source hackathon organized by the Unitary fund.
+_Quantum computing isn’t just unitary, it’s open source!_
+
+The Unitary Fund is proud to host our first quantum open source hackathon with SWAG and BOUNTIES!
+
+💰 [$2K] in bounties for tagged issues in quantum open source projects
+
+🎁 First [25] participants that make 1 quality Pull Request (PR)s to a participating open source project will receive a swag pack in the mail!*
 
 You can find all the information you need here including:
 
@@ -17,6 +23,6 @@ You can find some tips on how to prepare for the hackathon in our [hacker guide]
 We would love to support your project by connecting eager hackers to issues you need help with!
 Check out our [maintainer guide](./maintainer-guide.md)
 
-## Thanks to all our suporters for this event!
+## Thanks to all our supporters for this event!
 
 - [Xanadu]()
