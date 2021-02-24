@@ -13,9 +13,10 @@ This guide will help you understand more about the event and how you can make th
 ### Review the tech
 Whether you are new to quantum technologies or work on them every day, here is a good list of general quantum computing resources that might be helpful to learn with or brush up on:
 
-- Check out previous QST vids
--
--
+- [The Qiskit Textbook](https://qiskit.org/textbook/preface.html)
+- [Overview talk on Quantum Computing / PyQuil and Forest](https://skillsmatter.com/skillscasts/11929-programming-the-world-s-first-quantum-computers-using-forest)
+- [Quantum Machine Learning / Pennylane Tutorials](https://pennylane.ai/qml/)
+- [Quantum Software Talks](https://unitary.fund/talks.html) from Unitary Fund
 
 ### Dig into the docs
 
