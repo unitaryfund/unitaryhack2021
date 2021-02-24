@@ -1,20 +1,22 @@
 # Quantum open source maintainers:
 
-The Unitary Fund would like to invite you to participate in our first quantum open source hackathon!
+The Unitary Fund invites you to participate in our first quantum open source hackathon!
 
-Our goal at the Unitary Fund is to make quantum technology ecosystem that benefits the most people.
+Our goal at the Unitary Fund is to build a quantum technology ecosystem that benefits the most people.
 That starts by supporting and growing the great ecosystem of projects already out there that is maintained by amazing folks like you.
-It is always important for projects to find skilled and committed contributors that can do things like help develop new functionality, maintain existing tools, and writing tests and documentation that helps new users and contributors continue to grow and maintain the project.
-This is always challenging in open source in general, but can be especially difficult with open source projects that do at times need specialized skillets like quantum computing.
 
-We want for this event to be a way to show folks in the open source software community what amazing projects are already out there helping to drive the field of quantum computing forward, and help you as maintainers find new ways and people to help grow your projects.
+It is always important for projects to find skilled and committed contributors that can do things like help develop new functionality, maintain existing tools, and write tests and documentation that helps new users and contributors.
+This can be challenging in open source in general, but can be especially difficult for open source projects that need specialized skillets like quantum computing.
+
+We want this event to show folks in the open source software community what amazing projects are already out there, helping to drive the field of quantum computing forward, and helping you find new ways and people to help grow your projects.
+
 Should you be interested in participating, your time spent reviewing contributions will be compensated, as your time is valuable and we want to acknowledge that.
 We have some outlines below for what you can expect before and during the event, as well as [the rules for the event](./rules.md).
 
 ## Before the event:
 1. Tag issues on your projects you would like people to work on (#UnitaryHACK). We are looking for ~4 issues for each project (totally can be more, just a place to start) of a variety of difficulty levels.
-2. Identify if there are any issues you want to put a bounty on to specifically encourage participants to tackle them. Our goal is to have at least one issue per project, and we can scale that based on the size of your project’s codebase.
-3. Make a PR to this repo adding your project to the [participating projects](./participating-projects.md) list with 
+2. Identify if there are any issues you want to put a bounty on to specifically encourage participants to tackle them. Our goal is to have at least one bounty issue per project, and we can scale that based on the size of your project’s codebase.
+3. Make a PR to [this repo](https://github.com/unitaryfund/unitaryhack) adding your project to the [participating projects](./participating-projects.md) list with 
    1. A short description of your project with links to it,
    2. Links to the issues you would like to put bounties on, an a short description if you want of the associated issue (not necessary). We will work with you to make sure we get the bounty values correct.
 
