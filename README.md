@@ -4,7 +4,7 @@ _Quantum computing isn’t just unitary, it’s open source!_
 
 The Unitary Fund is proud to host our first quantum open source hackathon with SWAG and BOUNTIES!
 
-💰 [$2K] in bounties for tagged issues in quantum open source projects
+💰 A total of [$2K] in bounties for tagged issues in quantum open source projects
 
 🎁 First [25] participants that make 1 quality Pull Request (PR)s to a participating open source project will receive a swag pack in the mail!*
 
