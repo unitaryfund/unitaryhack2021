@@ -12,7 +12,7 @@ You can find all the information you need here including:
 
 - the [hackathon rules](./rules.md),
 - all the [participating projects](./participating-projects.md),
-- [our code of conduct](CODE_OF_CONDUCT.md),
+- [our code of conduct](CODE_OF_CONDUCT.md).
 
 ## Want to get hacking?
 
