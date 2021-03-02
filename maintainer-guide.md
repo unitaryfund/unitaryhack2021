@@ -13,6 +13,17 @@ We want this event to show folks in the open source software community what amaz
 Should you be interested in participating, your time spent reviewing contributions will be compensated, as your time is valuable and we want to acknowledge that.
 We have some outlines below for what you can expect before and during the event, as well as [the rules for the event](./rules.md).
 
+#### Timeline:
+- March: Contact and organize participating projects and funding
+  - March 15th Maintainer AMA call
+- April: Setup and test infrastructure for tagging/automation
+- May 14-30th: Hackathon starts and reviewing of PRs begins
+  - May 14th - Kickoff Call on Discord
+    - Review of the event + rules
+    - Give a short blurb about all participating projects
+    - Can answer any initial questions folks have about the event on discord
+
+
 ## Before the event:
 1. Tag issues on your projects you would like people to work on (#UnitaryHACK). We are looking for ~4 issues for each project (totally can be more, just a place to start) of a variety of difficulty levels.
 2. Identify if there are any issues you want to put a bounty on to specifically encourage participants to tackle them. Our goal is to have at least one bounty issue per project, and we can scale that based on the size of your project’s codebase.
