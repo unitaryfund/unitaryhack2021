@@ -37,3 +37,11 @@ Strawberry Fields is a full-stack Python library for designing, simulating, and 
 ### Bounties
 
 TBD
+
+## [The Walrus](https://github.com/XanaduAI/thewalrus)
+
+A library for the fast calculation of hafnians, Hermite polynomials, and Gaussian boson sampling.
+
+### Bounties
+
+TBD
