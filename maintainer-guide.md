@@ -1,4 +1,4 @@
-# Quantum open source maintainers
+# Maintainers
 
 The Unitary Fund invites you to participate in our first quantum open source hackathon!
 

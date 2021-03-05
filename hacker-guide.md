@@ -1,4 +1,4 @@
-# UnitaryHACKer Guide
+# Hackers
 
 No matter your experience in quantum tech or open source communities, **you** can help make quantum open source better (and get PRIZES!)
 

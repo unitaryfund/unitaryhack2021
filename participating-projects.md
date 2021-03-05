@@ -1,4 +1,4 @@
-# unitaryHACK participating projects
+# Participating projects
 
 Looking for a great quantum open source project to hack?
 This list is all the projects participating in unitaryHACK
