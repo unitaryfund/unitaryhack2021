@@ -1,4 +1,8 @@
-# Rules
+---
+layout: page
+title: Rules
+permalink: /rules/
+---
 
 1. unitaryHACK is open to everyone in our global community. Whether you’re a seasoned contributor or looking for quantum projects to contribute to for the first time, please **[sign up here](https://7r2lxl70pvl.typeform.com/to/HfJLX5fl)** so we know to look for your contributions! There are some limitations about where we can ship physical swag, see the [Terms and Conditions](#terms-and-conditions) below.
 2. A contribution to a participating project for this hackathon consists of making a pull request yourself to the project's repository. You can find a list of participating quantum open source projects [here](./participating-projects.md), and a [list of all the issues with bounties](TODO). For pull requests that have a bounty, the first accepted PR from the project maintainers will receive the prize, so make sure the contact info you sign-up for the contest with is correct!
