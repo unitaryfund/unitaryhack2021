@@ -19,3 +19,21 @@ Current quantum computers are noisy due to interactions with the environment, im
 #### $50
 
 - [Add type check to CI](https://github.com/unitaryfund/mitiq/issues/489)
+
+## [PennyLane](https://github.com/PennyLaneAI/pennylane)
+
+PennyLane is a cross-platform Python library for differentiable programming of quantum computers. 
+
+Train a quantum computer the same way as a neural network.
+
+### Bounties
+
+TBD
+
+## [Strawberry Fields](https://github.com/XanaduAI/strawberryfields)
+
+Strawberry Fields is a full-stack Python library for designing, simulating, and optimizing continuous-variable quantum optical circuits.
+
+### Bounties
+
+TBD
