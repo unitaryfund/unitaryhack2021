@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Rules
-permalink: /rules/
 ---
 
 1. unitaryHACK is open to everyone in our global community. Whether you’re a seasoned contributor or looking for quantum projects to contribute to for the first time, please **[sign up here](https://7r2lxl70pvl.typeform.com/to/HfJLX5fl)** so we know to look for your contributions! There are some limitations about where we can ship physical swag, see the [Terms and Conditions](#terms-and-conditions) below.

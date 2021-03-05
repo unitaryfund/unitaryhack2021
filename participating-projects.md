@@ -1,8 +1,7 @@
-# Participating projects
-
-Looking for a great quantum open source project to hack?
-This list is all the projects participating in unitaryHACK
-
+---
+layout: page
+title: Participating projects
+---
 ## [Mitiq](https://github.com/unitaryfund/mitiq)
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.
