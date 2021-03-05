@@ -16,16 +16,16 @@ You can find all the information you need here including:
 - all the [participating projects](./participating-projects.md),
 - [our code of conduct](CODE_OF_CONDUCT.md).
 
-## 💻 Want to get hacking? 💻
+## 💻 Get hacking! 💻
 
 You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund).
 
-## ⛑ Are you a quantum open source maintainer? ⛑
+## ⛑ Are you a maintainer? ⛑
 
-We would love to support your project by connecting eager hackers to issues you need help with!
+We would love to support your quantum open source project by connecting eager hackers to issues you need help with!
 Check out our [maintainer guide](./maintainer-guide.md)
 
-## 🙏Thanks to all our supporters for this event! 🙏
+## 🙏Thanks to our supporters! 🙏
 
 - [Unitary Fund](https://unitary.fund/)
 - [Xanadu](https://xanadu.ai/)
