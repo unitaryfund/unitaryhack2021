@@ -22,7 +22,7 @@ You can find all the information you need here including:
 
 You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund).
 
-## ⛑ Are you a maintainer of a quantum open source project? ⛑
+## ⛑ Are you a quantum open source maintainer? ⛑
 
 We would love to support your project by connecting eager hackers to issues you need help with!
 Check out our [maintainer guide](./maintainer-guide.md)
