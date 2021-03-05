@@ -1,18 +1,19 @@
 title: unitaryHACK
-author:
-  name: unitaryfund
-  email: info@unitary.fund
+author: unitaryfund
+email: info@unitary.fund
+github_username:  unitaryfund
+twitter_username: unitaryfund
 description: > # this means to ignore newlines until "show_excerpts:"
   Unitary Fund is a 501(c)(3) non-profit helping create a quantum
-  technology ecosystem that benefits the most people. 
-  _Quantum computing isn’t just unitary, it’s open source!_
+  technology ecosystem that benefits the most people.
 show_excerpts: false # set to true to show excerpts on the homepage
-
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
   date_format: "%b %-d, %Y"
-
+  skin: uf
   # generate social links in footer
   social_links:
     twitter: unitaryfund
@@ -56,6 +57,7 @@ header_pages:
  - maintainer-guide.md 
 # Build settings
 theme: minima
+
 
 plugins:
  - jekyll-feed
