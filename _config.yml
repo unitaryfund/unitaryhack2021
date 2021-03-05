@@ -17,6 +17,7 @@ minima:
   social_links:
     twitter: unitaryfund
     github:  unitaryfund
+    youtube_channel: UCDbDLAzGRTHnhkoMMOX7D1A
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
@@ -25,7 +26,6 @@ minima:
     # linkedin: jekyll
     # pinterest: jekyll
     # youtube: jekyll
-    youtube_channel: UCDbDLAzGRTHnhkoMMOX7D1A
     # youtube_channel_name: CloudCannon
     # telegram: jekyll
     # googleplus: +jekyll
@@ -48,7 +48,7 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
+header_pages:
  - README.md
  - participating-projects.md
  - rules.md
