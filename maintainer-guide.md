@@ -28,7 +28,7 @@ We have some outlines below for what you can expect before and during the event,
 
 ## Before the event
 
-1. Tag issues on your projects you would like people to work on (#unitaryhack). We are looking for ~4 issues for each project (totally can be more, just a place to start) of a variety of difficulty levels.
+1. Tag your repo with `unitaryhack` as well as any issues on your projects you would like people to work on (#unitaryhack). We are looking for ~4 issues for each project (totally can be more, just a place to start) of a variety of difficulty levels.
 2. Identify if there are any issues you want to put a bounty on to specifically encourage participants to tackle them. Our goal is to have at least one bounty issue per project, and we can scale that based on the size of your project’s codebase.
 3. Make sure you have  `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` at the root of your repo (or similar) so folks can learn how they should make their contributions to make your life easy.
 4. Make a PR to [this repo](https://github.com/unitaryfund/unitaryhack) adding your project to the [participating projects](./participating-projects.md) list with:
