@@ -13,7 +13,6 @@ This can be challenging in open source in general, but can be especially difficu
 
 We want this event to show folks in the open source software community what amazing projects are already out there, helping to drive the field of quantum computing forward, and helping you find new ways and people to help grow your projects.
 
-Should you be interested in participating, your time spent reviewing contributions will be compensated, as your time is valuable and we want to acknowledge that.
 We have some outlines below for what you can expect before and during the event, as well as [the rules for the event](./rules.md).
 
 > **Timeline:**
@@ -40,8 +39,7 @@ We have some outlines below for what you can expect before and during the event,
 
 ## During the event
 
-Hopefully you should be getting helpful PRs! We will compensate you for your time reviewing these PRs at [rate TBD] if that can help support the project.
-
+Hopefully you should be getting helpful PRs!
 If a PR does not meet a minimum bar for quality, or if another PR has been accepted, please communicate on the PR conversation that it is not accepted, and tag it as rejected or duplicate as appropriate.
 
 For bountied issues, mark the PR you want it awarded to with unitaryhack-accepted and we will take care of sending out the bounty!
