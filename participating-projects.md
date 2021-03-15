@@ -45,3 +45,29 @@ A library for the fast calculation of hafnians, Hermite polynomials, and Gaussia
 ### Bounties
 
 TBD
+
+## [toqito](https://github.com/vprusso/toqito)
+
+The toqito package is an open source Python library for studying various
+objects in quantum information, namely, states, channels, and measurements.
+
+Specifically, toqito focuses on providing numerical tools to study problems
+pertaining to entanglement theory, nonlocal games, matrix analysis, and other
+aspects of quantum information that are often associated with computer science.
+
+- A complete list of issues can be found
+[here](https://github.com/vprusso/toqito/issues)
+
+### Bounties
+
+#### $
+
+- [Implement feature for calculating the NPA hierarchy](https://github.com/vprusso/toqito/issues/5)
+
+#### $
+
+- [Implement feature for converting a binary constraint game to a nonlocal game](https://github.com/vprusso/toqito/issues/44)
+
+#### $
+
+- [Implement feature for determining whether an operator is block-positive](https://github.com/vprusso/toqito/issues/45)
