@@ -18,6 +18,8 @@ You can find all the information you need here including:
 
 ## 💻 Get hacking! 💻
 
+### [SIGN UP HERE!](https://unitaryfund.typeform.com/to/pM7KykBL)
+
 You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund).
 
 ## ⛑ Are you a maintainer? ⛑
