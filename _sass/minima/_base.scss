@@ -113,15 +113,18 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-base-color;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 
   &:visited {
     color: $link-visited-color;
   }
 
   &:hover {
-    color: $link-hover-color;
+    color: $link-base-color;
     text-decoration: underline;
+    text-decoration-style: dotted;
+    background-color: $link-hover-color;
   }
 
   .social-media-list &:hover {
@@ -138,7 +141,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $brand-color;
+  color: $brand-color-light;
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);

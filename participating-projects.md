@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Participating projects
+title: Projects
 ---
 
 
