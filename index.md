@@ -33,3 +33,7 @@ Check out our [maintainer guide](./maintainer-guide.md)
 
 - [Unitary Fund](https://unitary.fund/)
 - [Xanadu](https://xanadu.ai/)
+
+## 🙌🏻 Support this project 🙌🏻
+
+Would you like to help us support more contributors and projects? [Get in touch](mailto:info@unitary.fund?subject=[UnitaryHack]%20Supporting%20You) with us!
