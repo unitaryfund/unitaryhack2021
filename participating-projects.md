@@ -83,3 +83,40 @@ we sometimes play host to more in depth peer review.
 
 - Check out some issues we are looking for help with ["help
 wanted"](https://github.com/scirate/scirate/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+
+## [QuNetSim](https://github.com/tqsd/QuNetSim)
+
+QuNetSim is a quantum network simulation framework. With it, one can develop protocols for quantum networks 
+such as QKD, quantum teleportation, anonymous transmission, and many more over custom network topologies. 
+
+The complete list of issues for QuNetSim are [here](https://github.com/tqsd/QuNetSim/issues).
+
+### Bounties
+
+#### $
+
+- [Develop a user interface for QuNetSim](https://github.com/tqsd/QuNetSim/issues/82)
+
+#### $
+
+- [Develop QKD protocols](https://github.com/tqsd/QuNetSim/issues/90)
+
+#### $
+
+- [Develop a more complex templating script](https://github.com/tqsd/QuNetSim/issues/52)
+
+#### $
+
+- [Develop an example of a second generation quantum repeater](https://github.com/tqsd/QuNetSim/issues/91)
+
+
+## [Interlin-q](https://github.com/Interlin-q/Interlin-q)
+
+Interlin-q is a simulation platform for simulating distributed quantum algorithms. The purpose
+of Interlin-q is to be able to enter a monolithic quantum circuit and based on the distributed
+architecture, automatically map the circuit and then simulate the control process to run the algorithm. 
+
+#### $
+
+- [Integrate pyQuirk with Interlin-q](https://github.com/Interlin-q/Interlin-q/issues/35)
+
