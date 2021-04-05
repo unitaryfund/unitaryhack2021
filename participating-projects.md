@@ -120,3 +120,27 @@ architecture, automatically map the circuit and then simulate the control proces
 
 - [Integrate pyQuirk with Interlin-q](https://github.com/Interlin-q/Interlin-q/issues/35)
 
+
+## [QRAND](https://github.com/pedrorrivero/qrand)
+
+QRAND is a smart quantum random number generator for arbitrary probability 
+distributions, which operates by providing a multiplatform NumPy adapter 
+interface (e.g. qiskit, cirq, qsharp). To boost the randomness production 
+speed it implements an efficient randomness retrieval strategy based on caching 
+and multithreading.
+
+On top of that, it also allows the design and use of different platform-agnostic 
+quantum randomness generation protocols; as well as performing validation on the 
+results, according to a variety of NIST standards.
+
+- [Unitary Hack sponsored issues](https://github.com/pedrorrivero/qrand/labels/unitaryhack)
+- [Complete list of issues](https://github.com/pedrorrivero/qrand/issues)
+
+### Bounties
+
+#### $TBD
+- [Cirq support](https://github.com/pedrorrivero/qrand/issues/1)
+- [Q# support](https://github.com/pedrorrivero/qrand/issues/2)
+
+#### $TBD
+- [Entropy validation suite](https://github.com/pedrorrivero/qrand/issues/3)
