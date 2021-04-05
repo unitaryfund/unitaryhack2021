@@ -120,3 +120,24 @@ architecture, automatically map the circuit and then simulate the control proces
 
 - [Integrate pyQuirk with Interlin-q](https://github.com/Interlin-q/Interlin-q/issues/35)
 
+
+## [Qrack](https://github.com/vm6502q/qrack)
+
+Qrack is a GPU-accelerated HPC quantum computer simulator framework. The core library is
+dependency-free C++11, with optional OpenCL and Boost headers. Hardware supports spans from desktop,
+to mobile, to distributed clusters, and OS support includes Linux, Windows, Mac, Android, and iOS.
+Qrack aims to optimize the performance of noiseless pure state simulations. To this end, it contains
+many "layers" of functionality and novel optimization techniques.
+
+- A complete list of issues can be found
+[here](https://github.com/vm6502q/qrack/issues)
+
+### Bounties
+
+#### $
+
+- [Feature: Cirq plugin](https://github.com/vm6502q/qrack/issues/678)
+
+#### $
+
+- [Feature: Optional CUDA Support](https://github.com/vm6502q/qrack/issues/397)
