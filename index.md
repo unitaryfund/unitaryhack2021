@@ -1,39 +1,39 @@
 ---
 layout: page
-title: unitaryHACK 2021
+title:
 ---
-_Quantum computing isn’t just unitary, it’s open source!_
+<figure>
+<img style="max-width: 60%;
+        height: auto; margin: auto;
+  display: block;" src="./assets/logo-date.png" alt="New York" />
+<figcaption style="max-width: 60%;
+        height: auto; margin: auto;
+  display: block;font-size:.8em">
+<br>Quantum computing isn’t just unitary, it’s open source!
+</figcaption>
+</figure>
 
-The Unitary Fund is proud to host our first quantum open source hackathon with SWAG and BOUNTIES on **May 14-30th**!
+### The Unitary Fund is proud to host our first quantum open source hackathon with SWAG and BOUNTIES on **May 14-30th**!
 
-💰 A total of $2K in bounties for tagged issues in quantum open source projects
+- 💰 Over $2K in bounties for tagged issues in quantum open source projects
 
-💿 Digital swag for all participants that make approved Pull Requests (PR)s
+- 💿 Digital swag for all participants that make approved Pull Requests (PR)s
 
-🎁 25 Random participants that make 1 **quality** Pull Request (PR)s to a participating open source project will receive a swag pack in the mail!*
+- 🎁 Random participants that make 1 **quality** Pull Request (PR)s to a participating open source project will receive a [swag pack in the mail!*](./rules.md)
 
-You can find all the information you need here including:
+<button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://unitaryfund.typeform.com/to/pM7KykBL'"><b>SIGN UP HERE!</b></button>
 
-- the [hackathon rules](./rules.md),
-- all the [participating projects](./participating-projects.md),
-- [our code of conduct](CODE_OF_CONDUCT.md).
-
-## 💻 Get hacking! 💻
-
-### [SIGN UP HERE!](https://unitaryfund.typeform.com/to/pM7KykBL)
-
-You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund).
-
-## ⛑ Are you a maintainer? ⛑
+You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund), and make sure to check out [our code of conduct](CODE_OF_CONDUCT.md).
+### Are you a maintainer?
 
 We would love to support your quantum open source project by connecting eager hackers to issues you need help with!
 Check out our [maintainer guide](./maintainer-guide.md)
 
-## 🙏Thanks to our supporters! 🙏
+### Thanks to our supporters
 
 - [Unitary Fund](https://unitary.fund/)
 - [Xanadu](https://xanadu.ai/)
 
-## 🙌🏻 Support this project 🙌🏻
+#### Support this project🙏
 
 Would you like to help us support more contributors and projects? [Get in touch](mailto:info@unitary.fund?subject=[UnitaryHack]%20Supporting%20You) with us!
