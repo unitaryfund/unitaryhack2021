@@ -13,3 +13,5 @@ If you have any questions about the event or want to get in touch with others wo
 ## *Terms and Conditions
 
 More info soon!
+
+_Please note we are able to ship physical swag packs to all countries with the exception of the following: Cuba, Iran, Libya, North Korea, Sierra Leone, Somalia, Sudan, Syria, and Yemen._
