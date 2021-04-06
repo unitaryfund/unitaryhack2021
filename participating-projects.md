@@ -119,6 +119,31 @@ architecture, automatically map the circuit and then simulate the control proces
 - [Integrate pyQuirk with Interlin-q](https://github.com/Interlin-q/Interlin-q/issues/35)
 
 ---
+## [QRAND](https://github.com/pedrorrivero/qrand)
+
+QRAND is a smart quantum random number generator for arbitrary probability 
+distributions, which operates by providing a multiplatform NumPy adapter 
+interface (e.g. qiskit, cirq, qsharp). To boost the randomness production 
+speed it implements an efficient randomness retrieval strategy based on caching 
+and multithreading.
+
+On top of that, it also allows the design and use of different platform-agnostic 
+quantum randomness generation protocols; as well as performing validation on the 
+results, according to a variety of NIST standards.
+
+- [Unitary Hack sponsored issues](https://github.com/pedrorrivero/qrand/labels/unitaryhack)
+- [Complete list of issues](https://github.com/pedrorrivero/qrand/issues)
+
+### Bounties
+
+#### $100 each
+- [Cirq support](https://github.com/pedrorrivero/qrand/issues/1)
+- [Q# support](https://github.com/pedrorrivero/qrand/issues/2)
+
+#### $50 each
+- [Entropy validation suite](https://github.com/pedrorrivero/qrand/issues/3)
+
+---
 ## [Qrack](https://github.com/vm6502q/qrack)
 
 Qrack is a GPU-accelerated HPC quantum computer simulator framework. The core library is
@@ -139,4 +164,3 @@ many "layers" of functionality and novel optimization techniques.
 #### $125
 
 - [Feature: Optional CUDA Support](https://github.com/vm6502q/qrack/issues/397)
-
