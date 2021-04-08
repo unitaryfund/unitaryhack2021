@@ -8,7 +8,7 @@ title: Rules
 3. Hackers can make contributions anytime between May 14th and May 30th. Just be sure to [sign up here](https://7r2lxl70pvl.typeform.com/to/HfJLX5fl) and make sure that you put `[unitaryHACK]` in the title of your PR so the bots can find your contributions and make sure you get credit! You can look for open issues on GitHub labeled #unitaryhack for inspiration. Quality contributions are encouraged, see some discussion of what makes a good pull request from the [Hacktoberfest guidelines](https://hacktoberfest.digitalocean.com/details#quality).
 4. All participants and maintainers must adhere to the project's Code of Conduct as well as the Unitary Fund [Community Code of Conduct](./CODE_OF_CONDUCT.md).
 
-If you have any questions about the event or want to get in touch with others working on the event, join our [Discord](https://discord.unitary.fund)! We will also be featuring some of the best contributions from the hackathon on our [Twitch channel](https://twitch.tv/unitaryfund) after the event.
+If you have any questions about the event or want to get in touch with others working on the event, join our [Discord](http://discord.unitary.fund)! We will also be featuring some of the best contributions from the hackathon on our [Twitch channel](https://twitch.tv/unitaryfund) after the event.
 
 ## *Terms and Conditions
 

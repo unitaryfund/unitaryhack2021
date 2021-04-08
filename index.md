@@ -23,7 +23,7 @@ title:
 
 <button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://unitaryfund.typeform.com/to/pM7KykBL'"><b>SIGN UP HERE!</b></button>
 
-You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](https://discord.unitary.fund), and make sure to check out [our code of conduct](CODE_OF_CONDUCT.md).
+You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](http://discord.unitary.fund), and make sure to check out [our code of conduct](CODE_OF_CONDUCT.md).
 ### Are you a maintainer?
 
 We would love to support your quantum open source project by connecting eager hackers to issues you need help with!
