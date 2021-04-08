@@ -164,3 +164,15 @@ many "layers" of functionality and novel optimization techniques.
 #### $125
 
 - [Feature: Optional CUDA Support](https://github.com/vm6502q/qrack/issues/397)
+
+---
+
+## [QuTiP](https://github.com/qutip/qutip)
+
+QuTiP is an open-source Python library for simulating the dynamics of closed
+and open quantum systems, including quantum information processing and
+quantum control.
+
+### Bounties
+
+TBD
