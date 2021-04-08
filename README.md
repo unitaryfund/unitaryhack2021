@@ -29,6 +29,7 @@ Check out our [maintainer guide](./maintainer-guide.md)
 
 - [Unitary Fund](https://unitary.fund/)
 - [Xanadu](https://xanadu.ai/)
+- [PASQAL](https://pasqal.io/)
 
 ### Support this project🙏
 
