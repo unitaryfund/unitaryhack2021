@@ -21,7 +21,7 @@ title:
 
 - 🎁 Random participants that make 1 **quality** Pull Request (PR)s to a participating open source project will receive a [swag pack in the mail!*](./rules.md)
 
-<button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://unitaryfund.typeform.com/to/pM7KykBL'"><b>SIGN UP HERE!</b></button>
+<button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://airtable.com/embed/shrTG20PLC5cjVIPr'"><b>SIGN UP HERE!</b></button>
 
 You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](http://discord.unitary.fund), and make sure to check out [our code of conduct](CODE_OF_CONDUCT.md).
 ### Are you a maintainer?

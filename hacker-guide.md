@@ -10,7 +10,7 @@ This guide will help you understand more about the event and how you can make th
 ---
 ## ⌚ Before the Hack ⌚
 
-<button style="max-width: 60%;height: auto;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://unitaryfund.typeform.com/to/pM7KykBL'"><b>SIGN UP HERE!</b></button>
+<button style="max-width: 60%;height: auto;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://airtable.com/embed/shrTG20PLC5cjVIPr'"><b>SIGN UP HERE!</b></button>
 ### Brush up on your open source contribution skills
 
 - [How to Contribute to Open Source](https://opensource.guide/)
@@ -60,4 +60,4 @@ Check out the guides above if you are not familiar with Git or GitHub, or if you
 ## 🎉 After the Hack 🎉
 
 Show off your digital or IRL swag and check out what everyone else has done on the Discord, Twitter, GitHub!
-If you won any bounties or swag we will be in touch via email, so please make sure you [sign up](https://unitaryfund.typeform.com/to/pM7KykBL) so we can connect your GitHub username to your contact info.
+If you won any bounties or swag we will be in touch via email, so please make sure you [sign up](https://airtable.com/embed/shrTG20PLC5cjVIPr) so we can connect your GitHub username to your contact info.
