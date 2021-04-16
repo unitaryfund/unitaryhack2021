@@ -35,7 +35,7 @@ Train a quantum computer the same way as a neural network.
 
 ### Bounties
 
-TBD
+- [Create a quantum simulator in PyTorch](https://github.com/PennyLaneAI/pennylane/issues/1225)
 
 ---
 ## [Strawberry Fields](https://github.com/XanaduAI/strawberryfields)
