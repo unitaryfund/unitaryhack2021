@@ -53,7 +53,7 @@ A library for the fast calculation of hafnians, Hermite polynomials, and Gaussia
 
 ### Bounties
 
-TBD
+- [Improve the calculation of multidimensional hermite polynomials](https://github.com/XanaduAI/thewalrus/issues/214)
 
 ---
 ## [toqito](https://github.com/vprusso/toqito)
