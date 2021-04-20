@@ -59,7 +59,3 @@ We have tons of good resources for you over on the [hacker guide](./hacker-guide
 
 Nope! You can start learning the day the event starts if you want!
 We have lots of great resources on the [hacker guide](./hacker-guide.md) if you want to get started early though.
-
-## Q. What timezone is it in?
-
-All times for the events will be in [PDT](https://time.is/PDT).
