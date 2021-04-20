@@ -1,7 +1,7 @@
 title: unitaryHACK
 author: unitaryfund
 email: info@unitary.fund
-github_username:  unitaryfund
+github_username: unitaryfund
 twitter_username: unitaryfund
 description: > # this means to ignore newlines until "show_excerpts:"
   Unitary Fund is a 501(c)(3) non-profit helping create a quantum
@@ -17,7 +17,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: unitaryfund
-    github:  unitaryfund
+    github: unitaryfund
     youtube_channel: UCDbDLAzGRTHnhkoMMOX7D1A
     twitch: unitaryfund
     # devto: jekyll
@@ -33,14 +33,12 @@ minima:
     # googleplus: +jekyll
     # microdotblog: jekyll
     # keybase: jekyll
-
     # Mastodon instances
     # mastodon:
     # - username: jekyll
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
-
     # GitLab instances
     # gitlab:
     # - username: jekyll
@@ -51,13 +49,13 @@ minima:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - rules.md
- - hacker-guide.md
- - maintainer-guide.md 
+  - rules.md
+  - faq.md
+  - hacker-guide.md
+  - maintainer-guide.md
 # Build settings
 theme: minima
 
-
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
