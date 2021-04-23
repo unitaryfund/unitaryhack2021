@@ -46,7 +46,7 @@ Strawberry Fields is a full-stack Python library for designing, simulating, and 
 ### Bounties
 
 #### $85 each
-TBD
+- [Add a hybrid Gaussian/non-Gaussian compiler that merges Gaussian gates](https://github.com/XanaduAI/strawberryfields/issues/574)
 
 ---
 ## [The Walrus](https://github.com/XanaduAI/thewalrus)
