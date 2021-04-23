@@ -35,7 +35,7 @@ Train a quantum computer the same way as a neural network.
 
 ### Bounties
 
-#### $85 each
+#### $100 each
 - [Create a quantum simulator in PyTorch](https://github.com/PennyLaneAI/pennylane/issues/1225)
 
 ---
@@ -45,8 +45,8 @@ Strawberry Fields is a full-stack Python library for designing, simulating, and 
 
 ### Bounties
 
-#### $85 each
-TBD
+#### $100 each
+- [Add a hybrid Gaussian/non-Gaussian compiler that merges Gaussian gates](https://github.com/XanaduAI/strawberryfields/issues/574)
 
 ---
 ## [The Walrus](https://github.com/XanaduAI/thewalrus)
@@ -55,7 +55,7 @@ A library for the fast calculation of hafnians, Hermite polynomials, and Gaussia
 
 ### Bounties
 
-#### $85 each
+#### $50 each
 - [Improve the calculation of multidimensional hermite polynomials](https://github.com/XanaduAI/thewalrus/issues/214)
 
 ---
