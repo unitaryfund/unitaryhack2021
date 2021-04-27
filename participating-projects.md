@@ -179,3 +179,41 @@ quantum control.
 ### Bounties
 
 TBD
+
+---
+
+## [QCOR](https://github.com/ornl-qci/qcor)
+
+QCOR is a quantum-retargetable compiler platform providing language extensions for both C++ 
+and Python that allows programmers to express quantum code as stand-alone kernel functions. 
+
+### Bounties
+
+## $50
+- [API for command-line argument parsing](https://github.com/ornl-qci/qcor/123)
+- [Improved CMake Target Exporting and Downstream Quantum-Classical add_executable()](https://github.com/ornl-qci/qcor/101)
+
+## $100
+- [Quantum JIT Cache Manager](https://github.com/ornl-qci/qcor/126)
+
+## $250
+- [Python Wheels or Conda Binary](https://github.com/ornl-qci/qcor/129)
+
+---
+
+## [XACC](https://github.com/eclipse/xacc)
+
+XACC is a service-oriented, system-level software infrastructure in C++ promoting an 
+extensible API for the typical quantum-classical programming, compilation, and execution 
+workflow. 
+
+### Bounties
+
+## $50
+- [xacc::getAccelerator("ibm") automatic backend selection based on jobs in the queue](https://github.com/eclipse/xacc/issues/441)
+
+## $100
+- [Flexible Instruction Simulation](https://github.com/eclipse/xacc/issues/442)
+- [Implement 3-qubit decomposition](https://github.com/eclipse/xacc/issues/437)
+
+---
