@@ -190,14 +190,14 @@ and Python that allows programmers to express quantum code as stand-alone kernel
 ### Bounties
 
 ## $50
-- [API for command-line argument parsing](https://github.com/ornl-qci/qcor/123)
-- [Improved CMake Target Exporting and Downstream Quantum-Classical add_executable()](https://github.com/ornl-qci/qcor/101)
+- [API for command-line argument parsing](https://github.com/ornl-qci/qcor/issues/123)
+- [Improved CMake Target Exporting and Downstream Quantum-Classical add_executable()](https://github.com/ornl-qci/qcor/issues/101)
 
 ## $100
-- [Quantum JIT Cache Manager](https://github.com/ornl-qci/qcor/126)
+- [Quantum JIT Cache Manager](https://github.com/ornl-qci/qcor/issues/126)
 
 ## $250
-- [Python Wheels or Conda Binary](https://github.com/ornl-qci/qcor/129)
+- [Python Wheels or Conda Binary](https://github.com/ornl-qci/qcor/issues/129)
 
 ---
 
