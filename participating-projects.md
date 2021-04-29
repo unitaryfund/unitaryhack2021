@@ -178,4 +178,10 @@ quantum control.
 
 ### Bounties
 
-TBD
+#### $25
+- [Fix error raised by ffmpeg command from User Guide](https://github.com/qutip/qutip/issues/799)
+- [Bloch sphere requires matplotlib >= 3.3](https://github.com/qutip/qutip/issues/1502)
+- [Address deprecation warnings in Matplotlib 3.4](https://github.com/qutip/qutip/issues/1503)
+
+#### $75
+- [Address "malloc: Incorrect checksum" error in qutip.testing qt.run()](https://github.com/qutip/qutip/issues/1160)
