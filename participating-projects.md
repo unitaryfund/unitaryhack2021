@@ -169,7 +169,6 @@ many "layers" of functionality and novel optimization techniques.
 - [Feature: Optional CUDA Support](https://github.com/vm6502q/qrack/issues/397)
 
 ---
-
 ## [QuTiP](https://github.com/qutip/qutip)
 
 QuTiP is an open-source Python library for simulating the dynamics of closed
@@ -179,3 +178,35 @@ quantum control.
 ### Bounties
 
 TBD
+
+---
+## [qqcs](https://github.com/dde/qqcs)
+
+QQCS is a simple linear notation for the simulation of quantum circuits.
+
+It is an educational tool that can be easily used by students new to Quantum Computing.
+
+It provides automatic mathematical analysis of circuits by incorporating the matrix mathematics necessary to provide insight to circuit operation, and by displaying the details at each execution step, something not available from quantum computer simulated execution.
+
+It can be executed in interactive or batch mode.
+
+For example, here is the QQCS statement for the classic superdense coding circuit of Eve, Alice, and Bob.
+
+```|00>:H_:C01:X_:Z_:C01:H_:MM```
+
+- A list of issues can be found
+[here](https://github.com/dde/qqcs/issues)
+
+### Bounties
+
+#### $125
+14. Modify compiler-compiler to handle right-recursive productions iteratively as opposed to the current recursive design.
+
+#### $125
+15. Design new syntax to declare circuit lines to be divided into separate registers.
+
+#### $125
+16. Add an adjoint operator (') the gate suffix syntax and to the interpreter.
+
+#### $25
+18. Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).
