@@ -200,13 +200,14 @@ For example, here is the QQCS statement for the classic superdense coding circui
 ### Bounties
 
 #### $125
-14. Modify compiler-compiler to handle right-recursive productions iteratively as opposed to the current recursive design.
+[Modify compiler-compiler to handle right-recursive productions iteratively as opposed to the current recursive design.](https://github.com/dde/qqcs/issues/14)
+
 
 #### $125
-15. Design new syntax to declare circuit lines to be divided into separate registers.
+[Design new syntax to declare circuit lines to be divided into separate registers.](https://github.com/dde/qqcs/issues/15)
 
 #### $125
-16. Add an adjoint operator (') the gate suffix syntax and to the interpreter.
+[Add an adjoint operator (') the gate suffix syntax and to the interpreter.](https://github.com/dde/qqcs/issues/16)
 
 #### $25
-18. Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).
+[Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)
