@@ -179,3 +179,16 @@ quantum control.
 ### Bounties
 
 TBD
+
+---
+
+## [Pulser](https://github.com/pasqal-io/Pulser)
+
+Pulser is a Python library for programming neutral-atom quantum devices at the pulse level. The low-level nature of Pulser makes it a versatile framework for quantum control both in the digital and analog settings. The library also contains simulation routines for studying and exploring the outcome of pulse sequences for small systems.
+
+> If you would like to contribute to Pulser, we recommend starting with a ["good first
+issue"](https://github.com/pasqal-io/Pulser/labels/good%20first%20issue).
+
+### Bounties
+
+TBD
