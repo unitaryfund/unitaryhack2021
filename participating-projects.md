@@ -238,3 +238,18 @@ workflow.
 - [Implement 3-qubit decomposition](https://github.com/eclipse/xacc/issues/437)
 
 ---
+
+## [Yao](https://github.com/QuantumBFS/Yao.jl)
+
+Yao is an open source framework that aims to empower quantum information research with software tools in the [Julia programming language](http://julialang.org/).
+
+### Bounties
+
+## $50
+- [integration with PastaQ](https://github.com/QuantumBFS/Yao.jl/issues/280)
+
+## $100
+- [integrate YaoBlocks with IBMQClient and OpenQASM](https://github.com/QuantumBFS/Yao.jl/issues/279)
+- [webpage (tutorial/documentation/etc.) pipeline improvements](https://github.com/QuantumBFS/Yao.jl/issues/278)
+
+---
