@@ -261,5 +261,5 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 ### Bounties
 
 ## $25
-- [Design a challenge!](qosf/monthly-challenges#33)
-- [Design a challenge!](qosf/monthly-challenges#34)
+- [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
+- [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
