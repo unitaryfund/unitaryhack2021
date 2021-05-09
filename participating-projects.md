@@ -253,3 +253,13 @@ Yao is an open source framework that aims to empower quantum information researc
 - [webpage (tutorial/documentation/etc.) pipeline improvements](https://github.com/QuantumBFS/Yao.jl/issues/278)
 
 ---
+
+## [QOSF Monthly Challenges](https://github.com/qosf/monthly-challenges/)
+
+The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help participants hone their general quantum computing skills. These are open to everyone and welcome solo or team contributions. Solutions are peer-reviewed.
+
+### Bounties
+
+## $25
+- [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
+- [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
