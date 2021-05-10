@@ -263,3 +263,31 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 ## $25
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
+
+---
+
+## [Quantify](https://gitlab.com/quantify-os)
+
+Quantify is a python based data acquisition platform focused on Quantum Computing and solid-state physics experiments. It is built on top of [QCoDeS](https://qcodes.github.io/Qcodes/) and is a spiritual successor of [PycQED](https://github.com/DiCarloLab-Delft/PycQED_py3). Quantify currently consists of [quantify-core](https://gitlab.com/quantify-os/quantify-core) and [quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler).
+
+A list of other issues can be found here:
+- [Quantify-core issues](https://gitlab.com/quantify-os/quantify-core/-/issues?label_name%5B%5D=unitaryhack)
+- [Quantify-scheduler issues](https://gitlab.com/quantify-os/quantify-scheduler/-/issues?label_name%5B%5D=unitaryhack)
+
+
+### Bounties
+## $25
+- [Qutip and quantify-scheduler interface](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/114)
+- [Save JSON schedule to harddisk](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/2)
+- [Convert QCoDeS dataset to Quantify dataset](https://gitlab.com/quantify-os/quantify-core/-/issues/149)
+
+## $50
+- [Replace PyQT5 for realtime visualization](https://gitlab.com/quantify-os/quantify-core/-/issues/203)
+
+## $75
+- [Create an interactive data browser](https://gitlab.com/quantify-os/quantify-core/-/issues/204)
+- [Interactive pulse diagrams](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/112)
+- [Support loops and classical logic in quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/33)
+- [Parser and generator for Qiskit, Cirq](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/111)
+
+---
