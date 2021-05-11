@@ -276,17 +276,15 @@ A list of other issues can be found here:
 
 
 ### Bounties
+
 ## $25
-- [Qutip and quantify-scheduler interface](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/114)
+- [Create an interactive data browser](https://gitlab.com/quantify-os/quantify-core/-/issues/204)
 - [Save JSON schedule to harddisk](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/2)
-- [Convert QCoDeS dataset to Quantify dataset](https://gitlab.com/quantify-os/quantify-core/-/issues/149)
 
 ## $50
 - [Replace PyQT5 for realtime visualization](https://gitlab.com/quantify-os/quantify-core/-/issues/203)
 
 ## $75
-- [Create an interactive data browser](https://gitlab.com/quantify-os/quantify-core/-/issues/204)
-- [Interactive pulse diagrams](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/112)
 - [Support loops and classical logic in quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/33)
 - [Parser and generator for Qiskit, Cirq](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/111)
 
