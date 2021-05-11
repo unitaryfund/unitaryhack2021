@@ -263,3 +263,31 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 ## $25
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
+
+---
+
+## [qqcs](https://github.com/dde/qqcs)
+
+QQCS is a simple linear notation for the simulation of quantum circuits.
+
+It is an educational tool that can be easily used by students new to Quantum Computing.
+
+It provides automatic mathematical analysis of circuits by incorporating the matrix mathematics necessary to provide insight to circuit operation, and by displaying the details at each execution step, something not available from quantum computer simulated execution.
+
+It can be executed in interactive or batch mode.
+
+For example, here is the QQCS statement for the classic superdense coding circuit of Eve, Alice, and Bob.
+
+```|00>:H_:C01:X_:Z_:C01:H_:MM```
+
+- A list of issues can be found
+[here](https://github.com/dde/qqcs/issues)
+
+### Bounties
+
+#### $125 Each
+- [Design new syntax to declare circuit lines to be divided into separate registers.](https://github.com/dde/qqcs/issues/15)
+- [Add an adjoint operator (') the gate suffix syntax and to the interpreter.](https://github.com/dde/qqcs/issues/16)
+
+#### $25
+- [Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)
