@@ -194,12 +194,17 @@ TBD
 
 Pulser is a Python library for programming neutral-atom quantum devices at the pulse level. The low-level nature of Pulser makes it a versatile framework for quantum control both in the digital and analog settings. The library also contains simulation routines for studying and exploring the outcome of pulse sequences for small systems.
 
-> If you would like to contribute to Pulser, we recommend starting with a ["good first
-issue"](https://github.com/pasqal-io/Pulser/labels/good%20first%20issue).
+> We recommend tackling [these issues](https://github.com/pasqal-io/Pulser/issues?q=is%3Aissue+is%3Aopen+label%3Aunitaryhack). If you want to start with a simple contribution, look also for a ["good first issue"](https://github.com/pasqal-io/Pulser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ### Bounties
 
-TBD
+#### $100 each
+- [Add Support for Simulation in XY Mode](https://github.com/pasqal-io/Pulser/issues/147)
+- [Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)
+
+#### $50
+- [Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)
+
 
 ---
 
