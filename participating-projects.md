@@ -60,12 +60,16 @@ Current quantum computers are noisy due to interactions with the environment, im
 #### $100 each
 
 - [Add tutorial example where mitiq makes a variational problem trainable](https://github.com/unitaryfund/mitiq/issues/529)
-- [PEC with Qiskit is slow](https://github.com/unitaryfund/mitiq/issues/507)
+
+#### $50 each
+- [Add documentation about parameter scaling](https://github.com/unitaryfund/mitiq/issues/501)
 
 #### $25 each
 
 - [Add type check to CI](https://github.com/unitaryfund/mitiq/issues/489)
-- [Revamp executor docs](https://github.com/unitaryfund/mitiq/issues/552)
+- [Add an XACC executor example and item to software list](https://github.com/unitaryfund/mitiq/issues/357)
+- [Testing or updating or replacing the TensorFlow Quantum executor example](https://github.com/unitaryfund/mitiq/issues/559)
+- [Warn users when their programs are too short](https://github.com/unitaryfund/mitiq/issues/275)
 
 ---
 
