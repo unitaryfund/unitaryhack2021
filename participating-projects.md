@@ -5,6 +5,26 @@ title: Projects
 
 You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
 
+## Participating Projects
+- [Mitiq](#mitiq)
+- [PennyLane](#pennylane)
+- [Strawberry Fields](#strawberry-fields)
+- [The Walrus](#the-walrus)
+- [toqito](#toqito)
+- [SciRate](#scirate)
+- [QuNetSim](#qunetsim)
+- [Interlin-q](#interlin-q)
+- [QRAND](#qrand)
+- [Qrack](#qrack)
+- [QuTiP](#qutip)
+- [Pulser](#pulser)
+- [QCOR](#qcor)
+- [XACC](#xacc)
+- [Yao](#yao)
+- [QOSF Monthly Challenges](#qosf-monthly-challenges)
+- [Quantify](#quantify)
+
+
 ## [Mitiq](https://github.com/unitaryfund/mitiq)
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.
@@ -124,14 +144,14 @@ architecture, automatically map the circuit and then simulate the control proces
 ---
 ## [QRAND](https://github.com/pedrorrivero/qrand)
 
-QRAND is a smart quantum random number generator for arbitrary probability 
-distributions, which operates by providing a multiplatform NumPy adapter 
-interface (e.g. qiskit, cirq, qsharp). To boost the randomness production 
-speed it implements an efficient randomness retrieval strategy based on caching 
+QRAND is a smart quantum random number generator for arbitrary probability
+distributions, which operates by providing a multiplatform NumPy adapter
+interface (e.g. qiskit, cirq, qsharp). To boost the randomness production
+speed it implements an efficient randomness retrieval strategy based on caching
 and multithreading.
 
-On top of that, it also allows the design and use of different platform-agnostic 
-quantum randomness generation protocols; as well as performing validation on the 
+On top of that, it also allows the design and use of different platform-agnostic
+quantum randomness generation protocols; as well as performing validation on the
 results, according to a variety of NIST standards.
 
 - [Unitary Hack sponsored issues](https://github.com/pedrorrivero/qrand/labels/unitaryhack)
@@ -210,8 +230,8 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 
 ## [QCOR](https://github.com/ornl-qci/qcor)
 
-QCOR is a quantum-retargetable compiler platform providing language extensions for both C++ 
-and Python that allows programmers to express quantum code as stand-alone kernel functions. 
+QCOR is a quantum-retargetable compiler platform providing language extensions for both C++
+and Python that allows programmers to express quantum code as stand-alone kernel functions.
 
 ### Bounties
 
@@ -229,9 +249,9 @@ and Python that allows programmers to express quantum code as stand-alone kernel
 
 ## [XACC](https://github.com/eclipse/xacc)
 
-XACC is a service-oriented, system-level software infrastructure in C++ promoting an 
-extensible API for the typical quantum-classical programming, compilation, and execution 
-workflow. 
+XACC is a service-oriented, system-level software infrastructure in C++ promoting an
+extensible API for the typical quantum-classical programming, compilation, and execution
+workflow.
 
 ### Bounties
 
