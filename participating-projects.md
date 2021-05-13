@@ -271,6 +271,28 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 
 ---
 
+## [qqcs](https://github.com/dde/qqcs)
+
+QQCS is a simple linear notation for the simulation of quantum circuits.
+
+For example, here is the QQCS statement for the classic superdense coding circuit of Eve, Alice, and Bob.
+
+```|00>:H_:C01:X_:Z_:C01:H_:MM```
+
+- A list of issues can be found
+[here](https://github.com/dde/qqcs/issues)
+
+### Bounties
+
+#### $125 Each
+- [Design new syntax to declare circuit lines to be divided into separate registers.](https://github.com/dde/qqcs/issues/15)
+- [Add an adjoint operator (') the gate suffix syntax and to the interpreter.](https://github.com/dde/qqcs/issues/16)
+
+#### $25
+- [Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)
+
+---
+
 ## [Quantify](https://gitlab.com/quantify-os)
 
 Quantify is a python based data acquisition platform focused on Quantum Computing and solid-state physics experiments. It is built on top of [QCoDeS](https://qcodes.github.io/Qcodes/) and is a spiritual successor of [PycQED](https://github.com/DiCarloLab-Delft/PycQED_py3). Quantify currently consists of [quantify-core](https://gitlab.com/quantify-os/quantify-core) and [quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler).
@@ -278,7 +300,6 @@ Quantify is a python based data acquisition platform focused on Quantum Computin
 A list of other issues can be found here:
 - [Quantify-core issues](https://gitlab.com/quantify-os/quantify-core/-/issues?label_name%5B%5D=unitaryhack)
 - [Quantify-scheduler issues](https://gitlab.com/quantify-os/quantify-scheduler/-/issues?label_name%5B%5D=unitaryhack)
-
 
 ### Bounties
 
