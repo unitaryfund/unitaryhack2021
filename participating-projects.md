@@ -3,27 +3,49 @@ layout: page
 title: Projects
 ---
 
-You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
+> #### You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
 
 ## Participating Projects
-- [Mitiq](#mitiq)
-- [PennyLane](#pennylane)
-- [Strawberry Fields](#strawberry-fields)
-- [The Walrus](#the-walrus)
-- [toqito](#toqito)
-- [SciRate](#scirate)
-- [QuNetSim](#qunetsim)
-- [Interlin-q](#interlin-q)
-- [QRAND](#qrand)
-- [Qrack](#qrack)
-- [QuTiP](#qutip)
-- [Pulser](#pulser)
-- [QCOR](#qcor)
-- [XACC](#xacc)
-- [Yao](#yao)
-- [QOSF Monthly Challenges](#qosf-monthly-challenges)
-- [Quantify](#quantify)
-
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:grey;border-style:solid;border-width:1px;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-sj11{!important;;font-size:medium; text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-sj11"><a href="#mitiq">Mitiq</a></td>
+    <td class="tg-sj11"><a href="#pennylane">PennyLane</a></td>
+    <td class="tg-sj11"><a href="#strawberry-fields">Strawberry Fields</a></td>
+    <td class="tg-sj11"><a href="#the-walrus">The Walrus</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#toqito">toqito</a></td>
+    <td class="tg-sj11"><a href="#scirate">SciRate</a></td>
+    <td class="tg-sj11"><a href="#qunetsim">QuNetSim</a></td>
+    <td class="tg-sj11"><a href="#interlin-q">Interlin-q</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#qrand">QRAND</a></td>
+    <td class="tg-sj11"><a href="#qrack">Qrack</a></td>
+    <td class="tg-sj11"><a href="#qutip">QuTiP</a></td>
+    <td class="tg-sj11"><a href="#pulser">Pulser</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#qcor">QCOR</a></td>
+    <td class="tg-sj11"><a href="##xacc">XACC</a></td>
+    <td class="tg-sj11"><a href="#qosf-monthly-challenges">QOSF Monthly Challenges</a></td>
+    <td class="tg-sj11"><a href="#yao">Yao</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#quantify">Quantify</a></td>
+    <td class="tg-sj11"><a href="#QQCS">QQCS</a></td>
+    <td class="tg-sj11"></td>
+    <td class="tg-sj11"></td>
+  </tr>
+</tbody>
+</table>
 
 ## [Mitiq](https://github.com/unitaryfund/mitiq)
 
