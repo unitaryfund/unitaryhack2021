@@ -194,12 +194,17 @@ TBD
 
 Pulser is a Python library for programming neutral-atom quantum devices at the pulse level. The low-level nature of Pulser makes it a versatile framework for quantum control both in the digital and analog settings. The library also contains simulation routines for studying and exploring the outcome of pulse sequences for small systems.
 
-> If you would like to contribute to Pulser, we recommend starting with a ["good first
-issue"](https://github.com/pasqal-io/Pulser/labels/good%20first%20issue).
+> We recommend tackling [these issues](https://github.com/pasqal-io/Pulser/issues?q=is%3Aissue+is%3Aopen+label%3Aunitaryhack). If you want to start with a simple contribution, look also for a ["good first issue"](https://github.com/pasqal-io/Pulser/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
 ### Bounties
 
-TBD
+#### $100 each
+- [Add Support for Simulation in XY Mode](https://github.com/pasqal-io/Pulser/issues/147)
+- [Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)
+
+#### $50
+- [Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)
+
 
 ---
 
@@ -270,12 +275,6 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 
 QQCS is a simple linear notation for the simulation of quantum circuits.
 
-It is an educational tool that can be easily used by students new to Quantum Computing.
-
-It provides automatic mathematical analysis of circuits by incorporating the matrix mathematics necessary to provide insight to circuit operation, and by displaying the details at each execution step, something not available from quantum computer simulated execution.
-
-It can be executed in interactive or batch mode.
-
 For example, here is the QQCS statement for the classic superdense coding circuit of Eve, Alice, and Bob.
 
 ```|00>:H_:C01:X_:Z_:C01:H_:MM```
@@ -291,3 +290,28 @@ For example, here is the QQCS statement for the classic superdense coding circui
 
 #### $25
 - [Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)
+
+---
+
+## [Quantify](https://gitlab.com/quantify-os)
+
+Quantify is a python based data acquisition platform focused on Quantum Computing and solid-state physics experiments. It is built on top of [QCoDeS](https://qcodes.github.io/Qcodes/) and is a spiritual successor of [PycQED](https://github.com/DiCarloLab-Delft/PycQED_py3). Quantify currently consists of [quantify-core](https://gitlab.com/quantify-os/quantify-core) and [quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler).
+
+A list of other issues can be found here:
+- [Quantify-core issues](https://gitlab.com/quantify-os/quantify-core/-/issues?label_name%5B%5D=unitaryhack)
+- [Quantify-scheduler issues](https://gitlab.com/quantify-os/quantify-scheduler/-/issues?label_name%5B%5D=unitaryhack)
+
+### Bounties
+
+## $25
+- [Create an interactive data browser](https://gitlab.com/quantify-os/quantify-core/-/issues/204)
+- [Save JSON schedule to harddisk](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/2)
+
+## $50
+- [Replace PyQT5 for realtime visualization](https://gitlab.com/quantify-os/quantify-core/-/issues/203)
+
+## $75
+- [Support loops and classical logic in quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/33)
+- [Parser and generator for Qiskit, Cirq](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/111)
+
+---
