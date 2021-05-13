@@ -5,10 +5,9 @@ title: Projects
 
 > #### You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
 
-## Participating Projects
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:grey;border-style:solid;border-width:1px;
+.tg td{border-color:grey;border-style:none;border-width:1px;
   overflow:hidden;padding:5px 5px;word-break:normal;}
 .tg .tg-sj11{!important;;font-size:medium; text-align:left;vertical-align:middle}
 </style>
@@ -34,19 +33,20 @@ title: Projects
   </tr>
   <tr>
     <td class="tg-sj11"><a href="#qcor">QCOR</a></td>
-    <td class="tg-sj11"><a href="##xacc">XACC</a></td>
+    <td class="tg-sj11"><a href="#xacc">XACC</a></td>
     <td class="tg-sj11"><a href="#qosf-monthly-challenges">QOSF Monthly Challenges</a></td>
     <td class="tg-sj11"><a href="#yao">Yao</a></td>
   </tr>
   <tr>
     <td class="tg-sj11"><a href="#quantify">Quantify</a></td>
-    <td class="tg-sj11"><a href="#QQCS">QQCS</a></td>
+    <td class="tg-sj11"><a href="#qqcs">QQCS</a></td>
     <td class="tg-sj11"></td>
     <td class="tg-sj11"></td>
   </tr>
 </tbody>
 </table>
 
+---
 ## [Mitiq](https://github.com/unitaryfund/mitiq)
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.
@@ -247,7 +247,6 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 #### $50
 - [Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)
 
-
 ---
 
 ## [QCOR](https://github.com/ornl-qci/qcor)
@@ -257,14 +256,14 @@ and Python that allows programmers to express quantum code as stand-alone kernel
 
 ### Bounties
 
-## $25
+#### $25
 - [API for command-line argument parsing](https://github.com/ornl-qci/qcor/issues/123)
 - [Improved CMake Target Exporting and Downstream Quantum-Classical add_executable()](https://github.com/ornl-qci/qcor/issues/101)
 
-## $50
+#### $50
 - [Quantum JIT Cache Manager](https://github.com/ornl-qci/qcor/issues/126)
 
-## $150
+#### $150
 - [Python Wheels or Conda Binary](https://github.com/ornl-qci/qcor/issues/129)
 
 ---
@@ -277,10 +276,10 @@ workflow.
 
 ### Bounties
 
-## $50
+#### $50
 - [xacc::getAccelerator("ibm") automatic backend selection based on jobs in the queue](https://github.com/eclipse/xacc/issues/441)
 
-## $100
+#### $100
 - [Flexible Instruction Simulation](https://github.com/eclipse/xacc/issues/442)
 - [Implement 3-qubit decomposition](https://github.com/eclipse/xacc/issues/437)
 
@@ -292,10 +291,10 @@ Yao is an open source framework that aims to empower quantum information researc
 
 ### Bounties
 
-## $50
+#### $50
 - [integration with PastaQ](https://github.com/QuantumBFS/Yao.jl/issues/280)
 
-## $100
+#### $100
 - [integrate YaoBlocks with IBMQClient and OpenQASM](https://github.com/QuantumBFS/Yao.jl/issues/279)
 - [webpage (tutorial/documentation/etc.) pipeline improvements](https://github.com/QuantumBFS/Yao.jl/issues/278)
 
@@ -307,22 +306,17 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 
 ### Bounties
 
-## $25
+#### $25
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
 
 ---
 
-## [qqcs](https://github.com/dde/qqcs)
+## [QQCS](https://github.com/dde/qqcs)
 
 QQCS is a simple linear notation for the simulation of quantum circuits.
 
-For example, here is the QQCS statement for the classic superdense coding circuit of Eve, Alice, and Bob.
-
-```|00>:H_:C01:X_:Z_:C01:H_:MM```
-
-- A list of issues can be found
-[here](https://github.com/dde/qqcs/issues)
+> A list of issues can be found [here](https://github.com/dde/qqcs/issues)
 
 ### Bounties
 
@@ -345,15 +339,13 @@ A list of other issues can be found here:
 
 ### Bounties
 
-## $25
+#### $25
 - [Create an interactive data browser](https://gitlab.com/quantify-os/quantify-core/-/issues/204)
 - [Save JSON schedule to harddisk](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/2)
 
-## $50
+#### $50
 - [Replace PyQT5 for realtime visualization](https://gitlab.com/quantify-os/quantify-core/-/issues/203)
 
-## $75
+#### $75
 - [Support loops and classical logic in quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/33)
 - [Parser and generator for Qiskit, Cirq](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/111)
-
----
