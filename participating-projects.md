@@ -3,7 +3,49 @@ layout: page
 title: Projects
 ---
 
-You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
+> #### You can see all of the tagged issues on GitHub [here](https://github.com/topics/unitaryhack)!
+
+## Participating Projects
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:grey;border-style:solid;border-width:1px;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-sj11{!important;;font-size:medium; text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-sj11"><a href="#mitiq">Mitiq</a></td>
+    <td class="tg-sj11"><a href="#pennylane">PennyLane</a></td>
+    <td class="tg-sj11"><a href="#strawberry-fields">Strawberry Fields</a></td>
+    <td class="tg-sj11"><a href="#the-walrus">The Walrus</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#toqito">toqito</a></td>
+    <td class="tg-sj11"><a href="#scirate">SciRate</a></td>
+    <td class="tg-sj11"><a href="#qunetsim">QuNetSim</a></td>
+    <td class="tg-sj11"><a href="#interlin-q">Interlin-q</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#qrand">QRAND</a></td>
+    <td class="tg-sj11"><a href="#qrack">Qrack</a></td>
+    <td class="tg-sj11"><a href="#qutip">QuTiP</a></td>
+    <td class="tg-sj11"><a href="#pulser">Pulser</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#qcor">QCOR</a></td>
+    <td class="tg-sj11"><a href="##xacc">XACC</a></td>
+    <td class="tg-sj11"><a href="#qosf-monthly-challenges">QOSF Monthly Challenges</a></td>
+    <td class="tg-sj11"><a href="#yao">Yao</a></td>
+  </tr>
+  <tr>
+    <td class="tg-sj11"><a href="#quantify">Quantify</a></td>
+    <td class="tg-sj11"><a href="#QQCS">QQCS</a></td>
+    <td class="tg-sj11"></td>
+    <td class="tg-sj11"></td>
+  </tr>
+</tbody>
+</table>
 
 ## [Mitiq](https://github.com/unitaryfund/mitiq)
 
@@ -124,14 +166,14 @@ architecture, automatically map the circuit and then simulate the control proces
 ---
 ## [QRAND](https://github.com/pedrorrivero/qrand)
 
-QRAND is a smart quantum random number generator for arbitrary probability 
-distributions, which operates by providing a multiplatform NumPy adapter 
-interface (e.g. qiskit, cirq, qsharp). To boost the randomness production 
-speed it implements an efficient randomness retrieval strategy based on caching 
+QRAND is a smart quantum random number generator for arbitrary probability
+distributions, which operates by providing a multiplatform NumPy adapter
+interface (e.g. qiskit, cirq, qsharp). To boost the randomness production
+speed it implements an efficient randomness retrieval strategy based on caching
 and multithreading.
 
-On top of that, it also allows the design and use of different platform-agnostic 
-quantum randomness generation protocols; as well as performing validation on the 
+On top of that, it also allows the design and use of different platform-agnostic
+quantum randomness generation protocols; as well as performing validation on the
 results, according to a variety of NIST standards.
 
 - [Unitary Hack sponsored issues](https://github.com/pedrorrivero/qrand/labels/unitaryhack)
@@ -210,8 +252,8 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 
 ## [QCOR](https://github.com/ornl-qci/qcor)
 
-QCOR is a quantum-retargetable compiler platform providing language extensions for both C++ 
-and Python that allows programmers to express quantum code as stand-alone kernel functions. 
+QCOR is a quantum-retargetable compiler platform providing language extensions for both C++
+and Python that allows programmers to express quantum code as stand-alone kernel functions.
 
 ### Bounties
 
@@ -229,9 +271,9 @@ and Python that allows programmers to express quantum code as stand-alone kernel
 
 ## [XACC](https://github.com/eclipse/xacc)
 
-XACC is a service-oriented, system-level software infrastructure in C++ promoting an 
-extensible API for the typical quantum-classical programming, compilation, and execution 
-workflow. 
+XACC is a service-oriented, system-level software infrastructure in C++ promoting an
+extensible API for the typical quantum-classical programming, compilation, and execution
+workflow.
 
 ### Bounties
 
