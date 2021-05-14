@@ -40,7 +40,7 @@ title: Projects
   <tr>
     <td class="tg-sj11"><a href="#quantify">Quantify</a></td>
     <td class="tg-sj11"><a href="#qqcs">QQCS</a></td>
-    <td class="tg-sj11"></td>
+    <td class="tg-sj11"><a href="#q">Q#</a></td>
     <td class="tg-sj11"></td>
   </tr>
 </tbody>
@@ -353,3 +353,22 @@ A list of other issues can be found here:
 #### $75
 - [Support loops and classical logic in quantify-scheduler](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/33)
 - [Parser and generator for Qiskit, Cirq](https://gitlab.com/quantify-os/quantify-scheduler/-/issues/111)
+
+
+## [Q#](https://github.com/microsoft/qsharp-language/tree/main/Specifications/Language)
+
+We are working on adding support for compiling Q# to [QIR](https://github.com/microsoft/qsharp-compiler/tree/main/src/QsCompiler/QirGeneration) and executing it. QIR is a convention for how to represent quantum programs in [LLVM](https://github.com/llvm/). We aim to ultimately move the Q# compiler to be fully LLVM-based.
+
+While the support and integration is not yet complete, we have set up an example for how to compile a Q# project to QIR and execute it on our full state simulator for early adventurers who are excited to give it a try!
+
+For Unitary Hack, we have defined two tasks in particular to explore QIR:
+      
+### Bounties
+
+#### $25 each
+- Create an imaginative Q# program that is significantly different than any of our [samples](https://github.com/microsoft/Quantum), compile it to QIR, and execute it on our full state simulator. Create a PR adding the program to the [example](https://github.com/microsoft/qsharp-compiler/blob/unitaryhack/examples/QIR/Development/Program.qs) and post or attach the generated QIR to one of these GitHub issues: [example 1](https://github.com/microsoft/qsharp-compiler/issues/1028), [example 2](https://github.com/microsoft/qsharp-compiler/issues/1031), [example 3](https://github.com/microsoft/qsharp-compiler/issues/1032).
+
+
+#### $50 each
+- Find a Q# program that doesn't compile correctly into QIR or unexpectedly fails when executing the QIR on the full state simulator due to an issue with the generated QIR that hasn't been [filed](https://github.com/microsoft/qsharp-compiler/issues?q=is%3Aopen+is%3Aissue+label%3A%22area%3A+QIR%22) yet, and [file the issue](https://github.com/microsoft/qsharp-compiler/issues/new?assignees=&labels=bug%2C+area%3A+QIR&template=unitary_hack.md&title=[UnitaryHack]). The following GitHub issues contain more details: [issue 1](https://github.com/microsoft/qsharp-compiler/issues/1030), [issue 2](https://github.com/microsoft/qsharp-compiler/issues/1033), [issue 3](https://github.com/microsoft/qsharp-compiler/issues/1034)
+
