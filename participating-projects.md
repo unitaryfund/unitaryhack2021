@@ -69,7 +69,7 @@ Current quantum computers are noisy due to interactions with the environment, im
 
 - [Add an XACC executor example and item to software list](https://github.com/unitaryfund/mitiq/issues/357)
 - [Warn users when their programs are too short](https://github.com/unitaryfund/mitiq/issues/275)
-- [Finish the implementation of Braket conversions](https://github.com/unitaryfund/mitiq/issues/275)
+- [Finish the TODOs in the Braket conversions PR](https://github.com/unitaryfund/mitiq/pull/590)
 
 ---
 
