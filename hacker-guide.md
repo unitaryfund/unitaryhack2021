@@ -50,12 +50,14 @@ Pay special attention to issues tagged unitaryHACK as they are ones the project 
 
 > If you have questions while working on the issue always feel free to ping folks on the discord on the #hack-help channel.
 
+> If you want to team up with other folks on an issue that you have found, you can make a comment on the Github issue. Even if you don't plan to team up, commenting on Github may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). You can also comment on discord in the #find-a-team channel.
+
 ### Make a pull request
 
 Once you have a good solution to the issue, and have checked out the project's contributing guide (if they have one), you are ready to make your pull request or PR.
 Check out the guides above if you are not familiar with Git or GitHub, or if you run into issues making the contribution, just ask on the [Unitary Fund discord!](http://discord.unitary.fund)
 
-> Make sure that you put `[unitaryHACK]` in the title of your PR so the bots can find your contributions and make sure you get credit!
+> Make sure that you put `[unitaryHACK]` in the title of your PR so the bots can find your contributions and make sure you get credit! You can additionally use the #share-your-hack channel on discord.
 
 ## 🎉 After the Hack 🎉
 
