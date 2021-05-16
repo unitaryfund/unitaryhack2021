@@ -2,26 +2,7 @@
 layout: page
 title: ""
 ---
-
-## Current Open PRs
-<ul>
-{% for member in site.data.open-issues %}
-  <li>
-    <a href="https://github.com/{{ member.name}}">
-      {{ member.name}}
-    </a> :
-    <ul>
-    {% for issue in member.data %}
-      <li>
-        <a href="https://github.com/{{ member.name}}/issues/{{issue.number}}">
-      {{ issue.title}} </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </li>
-{% endfor %}
-</ul>
-
+## 📢 LIVE NOW, GET HACKING 🏁
 <figure>
 <img style="max-width: 60%;
         height: auto; margin: auto;
