@@ -136,7 +136,10 @@ we sometimes play host to more in depth peer review.
 wanted"](https://github.com/scirate/scirate/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 
 ### Bounties
-TBD
+
+#### $125 each
+- [Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)
+- [Build and deploy with nix](https://github.com/scirate/scirate/issues/429)
 
 ---
 ## [QuNetSim](https://github.com/tqsd/QuNetSim)
