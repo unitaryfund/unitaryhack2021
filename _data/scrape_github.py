@@ -1,8 +1,9 @@
 from github import Github
 import yaml
+import os
 
 # using an access token
-g = Github("TOGETFROMSECRETS")
+g = Github(os.getenv('GITHUB_TOKEN'))
 
 participating_projects = ["unitaryfund/mitiq", "PennyLaneAI/pennylane","XanaduAI/strawberryfields","XanaduAI/thewalrus",
                           "vprusso/toqito","scirate/scirate","tqsd/QuNetSim","Interlin-q/Interlin-q","pedrorrivero/qrand",
