@@ -1,0 +1,18 @@
+- name: tqsd/QuNetSim
+  data:
+  - title: Templater upgrade [unitaryHACK]
+    number: 101
+  - title: Remove Project Q warning from install [unitaryHACK]
+    number: 99
+- name: qutip/qutip
+  data:
+  - title: Fix Axes3D object is not iterable [unitaryHACK]
+    number: 1558
+  - title: Version checks for `matplotlib` [unitaryHACK]
+    number: 1556
+- name: pasqal-io/Pulser
+  data:
+  - title: '[unitaryHACK] `Register.hexagon()`, `Register.max_connectivity()`
+      (#132), Enhanced `ValueError` messages (#148),
+      Type hinting for `Register` (#16)'
+    number: 155
