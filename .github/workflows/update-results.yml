@@ -15,13 +15,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: 'gh-pages'
+        ref: 'feature/progress-tracker'
     - name: Scrape the GitHub API 
       run: |
         date > generated.txt
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git pull origin main --ff
+        git pull origin main --commit
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
       env:
@@ -30,7 +30,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
+        branch: feature/progress-tracker
     - name: Build & Deploy to GitHub Pages
       uses: joshlarsen/jekyll4-deploy-gh-pages@master
       env:
