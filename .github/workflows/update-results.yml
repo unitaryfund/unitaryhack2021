@@ -21,7 +21,7 @@ jobs:
         git config --local user.name "GitHub Action"
         # git fetch origin main
         # git merge origin/main --allow-unrelated-histories
-        pip install -r _data/requirements.txt && \
+        pip install -r _data/requirements.txt
         python _data/scrape_github.py
         git add _data
         git commit -m "Updating with new data"
