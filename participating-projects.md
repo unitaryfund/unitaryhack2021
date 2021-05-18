@@ -51,7 +51,10 @@ title: Projects
 
 Mitiq is a Python toolkit for implementing error mitigation techniques on quantum computers.
 
-Current quantum computers are noisy due to interactions with the environment, imperfect gate applications, state preparation and measurement errors, etc. Error mitigation seeks to reduce these effects at the software level by compiling quantum programs in clever ways.
+Current quantum computers are noisy due to interactions with the environment, imperfect gate applications, state preparation and measurement errors, etc.
+Error mitigation seeks to reduce these effects at the software level by compiling quantum programs in clever ways.
+You can watch some videos about Mitiq on the [Unitary Fund YouTube channel](https://www.youtube.com/watch?v=5KDQtWzJcfw&list=PL-VMs2BCTI_lklMMfY4iMdETT19rgZe5o).
+
 
 > General issues we are looking for help with during [unitaryHACK](https://github.com/unitaryfund/mitiq/labels/unitaryhack)
 
@@ -146,6 +149,7 @@ wanted"](https://github.com/scirate/scirate/issues?q=is%3Aissue+is%3Aopen+label%
 
 QuNetSim is a quantum network simulation framework. With it, one can develop protocols for quantum networks
 such as QKD, quantum teleportation, anonymous transmission, and many more over custom network topologies.
+You can watch the Quantum Software Talk on QuNetSim on [YouTube](https://www.youtube.com/watch?v=MmdRLYh1_mI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=5).
 
 > The complete list of issues for QuNetSim are [here](https://github.com/tqsd/QuNetSim/issues).
 
@@ -203,6 +207,7 @@ dependency-free C++11, with optional OpenCL and Boost headers. Hardware supports
 to mobile, to distributed clusters, and OS support includes Linux, Windows, Mac, Android, and iOS.
 Qrack aims to optimize the performance of noiseless pure state simulations. To this end, it contains
 many "layers" of functionality and novel optimization techniques.
+You can watch the Quantum Software Talk on Qrack on [YouTube](https://www.youtube.com/watch?v=yxyqJDC4SUo&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
 
 - A complete list of issues can be found
 [here](https://github.com/vm6502q/qrack/issues)
@@ -224,7 +229,7 @@ many "layers" of functionality and novel optimization techniques.
 QuTiP is an open-source Python library for simulating the dynamics of closed
 and open quantum systems, including quantum information processing and
 quantum control.
-
+You can watch the Quantum Software Talk on QuTiP on [YouTube](https://www.youtube.com/watch?v=2tF_4ZJAuYY&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=3).
 ### Bounties
 
 #### $25
@@ -260,7 +265,7 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 
 QCOR is a quantum-retargetable compiler platform providing language extensions for both C++
 and Python that allows programmers to express quantum code as stand-alone kernel functions.
-
+You can watch the Quantum Software Talk on QCOR and XXAC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
 ### Bounties
 
 #### $25
@@ -280,6 +285,7 @@ and Python that allows programmers to express quantum code as stand-alone kernel
 XACC is a service-oriented, system-level software infrastructure in C++ promoting an
 extensible API for the typical quantum-classical programming, compilation, and execution
 workflow.
+You can watch the Quantum Software Talk on QCOR and XXAC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
 
 ### Bounties
 
