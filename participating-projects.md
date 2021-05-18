@@ -285,7 +285,7 @@ You can watch the Quantum Software Talk on QCOR and XACC on [YouTube](https://ww
 XACC is a service-oriented, system-level software infrastructure in C++ promoting an
 extensible API for the typical quantum-classical programming, compilation, and execution
 workflow.
-You can watch the Quantum Software Talk on QCOR and XXAC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
+You can watch the Quantum Software Talk on QCOR and XAAC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
 
 ### Bounties
 
