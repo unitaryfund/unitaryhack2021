@@ -3,7 +3,7 @@ name: Update Contest Results
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [ feature/progress-tracker ]
 #  pull_request:
 #    branches: [ main ]
 #  schedule:
