@@ -265,7 +265,7 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 
 QCOR is a quantum-retargetable compiler platform providing language extensions for both C++
 and Python that allows programmers to express quantum code as stand-alone kernel functions.
-You can watch the Quantum Software Talk on QCOR and XXAC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
+You can watch the Quantum Software Talk on QCOR and XACC on [YouTube](https://www.youtube.com/watch?v=GzslhEnHUHI&list=PL-VMs2BCTI_nnSQmBaccJ1CdQfw5cpHSp&index=2).
 ### Bounties
 
 #### $25
@@ -380,4 +380,3 @@ For Unitary Hack, we have defined two tasks in particular to explore QIR:
 
 #### $50 each
 - Find a Q# program that doesn't compile correctly into QIR or unexpectedly fails when executing the QIR on the full state simulator due to an issue with the generated QIR that hasn't been [filed](https://github.com/microsoft/qsharp-compiler/issues?q=is%3Aopen+is%3Aissue+label%3A%22area%3A+QIR%22) yet, and [file the issue](https://github.com/microsoft/qsharp-compiler/issues/new?assignees=&labels=bug%2C+area%3A+QIR&template=unitary_hack.md&title=[UnitaryHack]). The following GitHub issues contain more details: [issue 1](https://github.com/microsoft/qsharp-compiler/issues/1030), [issue 2](https://github.com/microsoft/qsharp-compiler/issues/1033), [issue 3](https://github.com/microsoft/qsharp-compiler/issues/1034)
-
