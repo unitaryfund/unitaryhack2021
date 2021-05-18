@@ -1,0 +1,35 @@
+---
+- name: PennyLaneAI/pennylane
+  data:
+  - title: '[unitaryHACK] Added SWAP decomposition and
+      related tests'
+    number: 1317
+  - title: '[WIP] [unitaryHACK] Add the CPhase operation'
+    number: 1319
+  - title: '[unitaryHACK] Toffoli Decomposition'
+    number: 1320
+- name: vprusso/toqito
+  data:
+  - title: Feature/bures distance [unitaryHACK]
+    number: 60
+- name: tqsd/QuNetSim
+  data:
+  - title: Templater upgrade [unitaryHACK]
+    number: 101
+  - title: '[unitaryHACK] Added BB84 protocol example
+      using QuNetSim #90'
+    number: 102
+  - title: '[unitaryHACK] Implemented BB84 protocol
+      without Interception.py'
+    number: 103
+- name: qutip/qutip
+  data:
+  - title: Version checks for `matplotlib` [unitaryHACK]
+    number: 1556
+- name: pasqal-io/Pulser
+  data:
+  - title: '[unitaryHACK] `Register.hexagon()`, `Register.max_connectivity()`
+      (#132), Enhanced `ValueError` messages (#148),
+      Type hinting for `Register` (#16)'
+    number: 155
+
