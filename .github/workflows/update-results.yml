@@ -3,11 +3,11 @@ name: Update Contest Results
 on:
   workflow_dispatch:
   push:
-    branches: [ feature/progress-tracker ]
+    branches: [ main ]
 #  pull_request:
 #    branches: [ main ]
-#  schedule:
-#  - cron: "0 * * * *"
+  schedule:
+  - cron: "0 * * * *"
   
 jobs:
   build:
