@@ -14,17 +14,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-      with:
-        ref: 'feature/progress-tracker'
     - name: Scrape the GitHub API 
       run: |
         date > generated.txt
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git fetch origin main
-        git merge origin/main --squash --allow-unrelated-histories
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        # git fetch origin main
+        # git merge origin/main --allow-unrelated-histories
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
+        git add _data
+        git commit -m "Updating with new data"
+        $ThisCommit = git rev-parse HEAD;
+        git checkout feature/progress-tracker
+        git reset --hard $ThisCommit
+      shell: pwsh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Git Commit and Push
@@ -32,6 +36,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: feature/progress-tracker
+        force: true
     - name: Build & Deploy to GitHub Pages
       uses: joshlarsen/jekyll4-deploy-gh-pages@master
       env:
