@@ -15,7 +15,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: 'main'
+        ref: 'gh-pages'
+    - name: Merge main -> gh-pages
+      uses: devmasx/merge-branch@v1.3.1
+      with:
+        type: now
+        from_branch: main
+        target_branch: gh-pages
+        github_token: ${{ github.token }}
     - name: Scrape the GitHub API 
       run: |
         pip install -r _data/requirements.txt && \
