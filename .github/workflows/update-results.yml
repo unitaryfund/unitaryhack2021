@@ -18,7 +18,10 @@ jobs:
         ref: 'gh-pages'
     - name: Scrape the GitHub API 
       run: |
-        git pull origin main
+        date > generated.txt
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git pull origin main --ff
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
       env:
