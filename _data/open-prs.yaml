@@ -1,0 +1,17 @@
+---
+- name: PennyLaneAI/pennylane
+  data:
+  - title: '[unitaryHACK] Add the XX operation'
+    number: 1194
+  - title: '[unitaryHACK] Add the CPhase operation'
+    number: 1319
+- name: vprusso/toqito
+  data:
+  - title: NPA hierarchy [unitaryHACK]
+    number: 61
+- name: tqsd/QuNetSim
+  data:
+  - title: '[unitaryHACK] Added BB84 protocol example
+      using QuNetSim #90'
+    number: 102
+
