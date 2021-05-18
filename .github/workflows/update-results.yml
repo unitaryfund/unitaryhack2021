@@ -22,7 +22,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git fetch origin main
-        git merge origin/main --ff-only
+        git merge origin/main --ff-only --allow-unrelated-histories
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
       env:
