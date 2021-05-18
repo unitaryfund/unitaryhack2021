@@ -7,8 +7,8 @@ description: > # this means to ignore newlines until "show_excerpts:"
   Unitary Fund is a 501(c)(3) non-profit helping create a quantum
   technology ecosystem that benefits the most people.
 show_excerpts: false # set to true to show excerpts on the homepage
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "unitaryhack" # the subpath of your site, e.g. /blog
+url: "https://unitaryfund.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
