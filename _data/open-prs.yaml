@@ -32,4 +32,3 @@
       (#132), Enhanced `ValueError` messages (#148),
       Type hinting for `Register` (#16)'
     number: 155
-

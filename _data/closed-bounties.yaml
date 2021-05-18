@@ -7,6 +7,10 @@
   data:
   - title: ffmpeg command from User Guide gives an error
     number: 799
+  - title: Bloch sphere requires matplotlib >= 3.3
+    number: 1502
+  - title: matplotlib 3.4 issues new deprecation warnings
+    number: 1503
 - name: dde/qqcs
   data:
   - title: 'Add a command line switch to display sparse
