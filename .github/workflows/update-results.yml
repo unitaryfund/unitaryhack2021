@@ -21,7 +21,7 @@ jobs:
         date > generated.txt
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git fetch
+        git fetch origin/main
         git merge origin/main --ff-only
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
