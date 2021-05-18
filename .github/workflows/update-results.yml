@@ -18,7 +18,7 @@ jobs:
         ref: 'gh-pages'
     - name: Scrape the GitHub API 
       run: |
-        git push origin main:gh-pages
+        git pull origin main
         pip install -r _data/requirements.txt && \
         python _data/scrape_github.py
       env:
