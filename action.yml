@@ -1,0 +1,5 @@
+name: "Build static site"
+description: 'Builds the Jekyll website'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
