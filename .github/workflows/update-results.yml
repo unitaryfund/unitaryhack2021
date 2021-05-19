@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Ruby 
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.6 # Not needed with a .ruby-version file
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Scrape the GitHub API 
       run: |
         pip install -r _data/requirements.txt
@@ -21,9 +26,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build the website 
-      run: |
-        bundle install
-        bundle exec jekyll build
+      run:  bundle exec jekyll build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v1.1.0
       env:
