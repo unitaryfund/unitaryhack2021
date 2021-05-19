@@ -22,10 +22,13 @@ jobs:
       shell: pwsh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Build & Deploy to GitHub Pages
-      uses: joshlarsen/jekyll4-deploy-gh-pages@master
+    - name: Build the website 
+      run: |
+        bundle install
+        bundle exec jekyll build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v1.1.0
       env:
+        PUBLISH_DIR: _site 
+        PUBLISH_BRANCH: gh-pages
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        PAGES_REPO_NWO: ${{ secrets.GITHUB_REPOSITORY }}
