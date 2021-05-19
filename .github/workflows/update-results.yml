@@ -15,15 +15,17 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: 'main'
-    # - name: Scrape the GitHub API 
-    #   run: |
-    #     pip install -r _data/requirements.txt
-    #     python _data/scrape_github.py
-    #   shell: pwsh
-    #   env:
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Scrape the GitHub API 
+      run: |
+        pip install -r _data/requirements.txt
+        python _data/scrape_github.py
+      shell: pwsh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build the website 
-      uses: ./
+      run: |
+        bundle install
+        bundle exec jekyll build
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v1.1.0
       env:
