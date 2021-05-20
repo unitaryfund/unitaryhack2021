@@ -1,17 +1,30 @@
 ---
 - name: PennyLaneAI/pennylane
   data:
-  - title: '[unitaryHACK] Add the XX operation'
-    number: 1194
-  - title: '[unitaryHACK] Add the CPhase operation'
-    number: 1319
+  - title: '[unitaryHACK] Enable non-Hermitian operator
+      to be defined'
+    number: 1335
 - name: vprusso/toqito
   data:
-  - title: NPA hierarchy [unitaryHACK]
-    number: 61
+  - title: Implement construction of nonlocal game from
+      binary constraint system game [unitaryHACK]
+    number: 62
 - name: tqsd/QuNetSim
   data:
   - title: '[unitaryHACK] Added BB84 protocol example
       using QuNetSim #90'
     number: 102
+- name: pasqal-io/Pulser
+  data:
+  - title: '[unitaryHACK] Add type hints to `waveforms.py`
+      (#16)'
+    number: 163
+  - title: Add phase and area text to pulse plot [unitaryHACK]
+    number: 166
+  - title: '[unitaryHACK] Add type hints to `sequence.py`
+      (#16)'
+    number: 167
+  - title: Add type hints in `_device_datacls.py` and
+      `coders.py` [unitaryHACK] (#16)
+    number: 169
 

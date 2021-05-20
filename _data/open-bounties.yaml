@@ -28,8 +28,6 @@
     number: 214
 - name: vprusso/toqito
   data:
-  - title: 'Feature: NPA hierarchy'
-    number: 5
   - title: 'Feature: Convert description of a binary
       constraint game to a nonlocal game'
     number: 44
@@ -37,7 +35,7 @@
     number: 45
 - name: scirate/scirate
   data:
-  - title: build and deploy with nix?
+  - title: build with nix
     number: 429
   - title: make a twitter/discord bot that posts the
       top papers each day
@@ -49,8 +47,6 @@
     number: 82
   - title: Implement various QKD protocols.
     number: 90
-  - title: Improve the Templater script to be more customizable
-    number: 52
   - title: Implement an example of a second generation
       quantum repeater
     number: 91

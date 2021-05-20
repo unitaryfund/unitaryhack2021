@@ -3,6 +3,14 @@
   data:
   - title: Add braket support via rudimentary translator
     number: 590
+- name: vprusso/toqito
+  data:
+  - title: 'Feature: NPA hierarchy'
+    number: 5
+- name: tqsd/QuNetSim
+  data:
+  - title: Improve the Templater script to be more customizable
+    number: 52
 - name: qutip/qutip
   data:
   - title: ffmpeg command from User Guide gives an error
