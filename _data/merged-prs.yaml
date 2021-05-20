@@ -1,2 +1,52 @@
---- []
-
+---
+- name: PennyLaneAI/pennylane
+  data:
+  - title: '[unitaryHACK] Add the ISWAP operation to
+      default_qubit device'
+    number: 1298
+  - title: '[unitaryHACK] Toffoli Decomposition'
+    number: 1320
+  - title: '[unitaryHACK] Deprecated qml.inv()'
+    number: 1325
+  - title: '[unitaryHACK] Added SWAP gate decomposition
+      and related tests'
+    number: 1329
+- name: vprusso/toqito
+  data:
+  - title: Feature/bures distance [unitaryHACK]
+    number: 60
+- name: tqsd/QuNetSim
+  data:
+  - title: Remove Project Q warning from install [unitaryHACK]
+    number: 99
+  - title: Generate simple topologies [unitaryHACK]
+    number: 100
+  - title: '[unitaryHACK] Implemented BB84 protocol
+      without Interception.py'
+    number: 103
+  - title: Templater upgrade [unitaryHACK]
+    number: 105
+- name: qutip/qutip
+  data:
+  - title: Version checks for `matplotlib` [unitaryHACK]
+    number: 1556
+  - title: Fix ffmpeg error [unitaryHACK]
+    number: 1557
+  - title: Fix Axes3D object is not iterable [unitaryHACK]
+    number: 1558
+- name: pasqal-io/Pulser
+  data:
+  - title: '[unitaryHACK] `Register.hexagon()`, `Register.max_connectivity()`
+      (#132), Enhanced `ValueError` messages (#148),
+      Type hinting for `Register` (#16)'
+    number: 155
+  - title: Change instances of `.format` to f-strings
+      [unitaryHACK]
+    number: 162
+- name: dde/qqcs
+  data:
+  - title: Added command line switch for better readability
+      in sparse matrix [unitaryHACK]
+    number: 19
+  - title: Updated README.md with rzeroes config [unitaryHACK]
+    number: 20
