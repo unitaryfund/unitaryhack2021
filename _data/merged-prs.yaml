@@ -69,6 +69,12 @@
   - title: Change instances of `.format` to f-strings
       [unitaryHACK]
     number: 162
+  - title: '[unitaryHACK] Add type hints to `waveforms.py`
+      (#16)'
+    number: 163
+  - title: '[unitaryHACK] Add type hints to `channels.py`
+      (#16)'
+    number: 171
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability
