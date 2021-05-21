@@ -7,6 +7,9 @@
   data:
   - title: 'Feature: NPA hierarchy'
     number: 5
+  - title: 'Feature: Convert description of a binary
+      constraint game to a nonlocal game'
+    number: 44
 - name: tqsd/QuNetSim
   data:
   - title: Improve the Templater script to be more customizable
