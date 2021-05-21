@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs: {}
   push:
-    branches: [ main, auto-update-data ]
+    branches: [ main ]
   schedule:
-    - cron: '0 * * * *' # runs every hour
+    - cron: '0 0,12 * * *' # runs every hour
 
 jobs:
   build:
