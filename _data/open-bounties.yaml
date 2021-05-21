@@ -28,9 +28,6 @@
     number: 214
 - name: vprusso/toqito
   data:
-  - title: 'Feature: Convert description of a binary
-      constraint game to a nonlocal game'
-    number: 44
   - title: 'Feature: Is block-positive'
     number: 45
 - name: scirate/scirate
