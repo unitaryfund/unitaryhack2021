@@ -1,0 +1,29 @@
+---
+- name: PennyLaneAI/pennylane
+  data:
+  - title: '[unitaryHACK] Update interface introduction'
+    number: 1333
+- name: scirate/scirate
+  data:
+  - title: '[unitaryHACK] Nix dev environment '
+    number: 433
+- name: pasqal-io/Pulser
+  data:
+  - title: Add phase and area text to pulse plot [unitaryHACK]
+    number: 166
+  - title: '[unitaryHACK] Add type hints to `sequence.py`
+      (#16)'
+    number: 167
+  - title: Add type hints in `_device_datacls.py` and
+      `coders.py` [unitaryHACK] (#16)
+    number: 169
+  - title: '[unitaryHACK] Add type hints to `pulse.py`
+      (#16)'
+    number: 172
+  - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
+      (#16)'
+    number: 173
+  - title: Add type hints in `pulser.parametrized` [unitaryHACK]
+      (#16)
+    number: 175
+

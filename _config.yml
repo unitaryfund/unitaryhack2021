@@ -53,6 +53,7 @@ header_pages:
   - faq.md
   - hacker-guide.md
   - maintainer-guide.md
+  - results.md
 # Build settings
 theme: minima
 
