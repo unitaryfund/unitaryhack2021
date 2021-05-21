@@ -1,6 +1,7 @@
 from github import Github
 import yaml
 import os
+from datetime import datetime
 
 # using an access token
 g = Github(os.getenv('GITHUB_TOKEN'))
@@ -17,8 +18,10 @@ bountied_issues = {"unitaryfund/mitiq":[529,489,357,275,590], "PennyLaneAI/penny
                    "QuantumBFS/Yao.jl":[280,279,278], "qosf/monthly-challenges":[33,34],"dde/qqcs":[15,16,18], 
                    "microsoft/qsharp-compiler":[1028,1031,1032,1030,1033,1034]}
 
-def format_as_yaml(results:dict, include_empty=False):
-    return yaml.dump([{'name' : k, 'data' : v} for k, v in results.items() if ((v!=[]) or include_empty)], sort_keys=False,explicit_start=True,width=50, indent=2)
+def format_as_yaml(results:dict, include_empty=False, header=""):
+    return header + "\n" + yaml.dump(
+        [{'name' : k, 'data' : v} for k, v in results.items() if ((v!=[]) or include_empty)], 
+        sort_keys=False, explicit_start=True, width=50, indent=2)
 
 def unitary_hack_labeled_issues(participating_projects, atribute="title",status="open"):
     open_issues = {}
@@ -40,18 +43,31 @@ def unitary_hack_prs_yaml(participating_projects, state="open", merged=False):
         pulls = g.get_repo(project).get_pulls(state=state, sort='created')
         open_prs[project] = [{'title': pr.title, 'number': pr.number} for pr in pulls 
                              if (('[unitaryHACK]' in pr.title) and (pr.merged==merged))] 
+    
     with open(("merged" if merged else "open") + "-prs.yaml", "w") as f:
-        print(format_as_yaml(open_prs), file=f)
+        print(format_as_yaml(open_prs, 
+            header=f"updated: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"), 
+            file=f
+        )
     
 def unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="open"):    
     bounties = {}
     for project in participating_projects:
         project_bounties = [g.get_repo(project).get_issue(num) for num in bountied_issues[project]]
         bounties[project] = [{'title': i.title, 'number': i.number} for i in project_bounties if i.state==state] 
+    
     with open(state + "-bounties.yaml", "w") as f:
-        print(format_as_yaml(bounties), file=f)
+        print(format_as_yaml(bounties, 
+            header=f"updated: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"), 
+            file=f
+        )
 
-unitary_hack_prs_yaml(participating_projects, merged=False)
-unitary_hack_prs_yaml(participating_projects, merged=True)
+print("Checking for pending PRs...")
+unitary_hack_prs_yaml(participating_projects, state="open", merged=False)
+print("Checking for merged PRs...")
+unitary_hack_prs_yaml(participating_projects, state="closed", merged=True)
+print("Checking for open PRs...")
 unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="open")
+print("Checking for pending PRs...")
 unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="closed")
+print("Done! ♥")
