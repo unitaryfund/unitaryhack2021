@@ -34,6 +34,9 @@
     number: 99
   - title: Generate simple topologies [unitaryHACK]
     number: 100
+  - title: '[unitaryHACK] Added BB84 protocol example
+      using QuNetSim #90'
+    number: 102
   - title: '[unitaryHACK] Implemented BB84 protocol
       without Interception.py'
     number: 103
@@ -44,6 +47,11 @@
   - title: '[unitaryHACK] (#7) Implement random Octal,
       Hex, Base32, and Base64 encodings'
     number: 12
+- name: vm6502q/qrack
+  data:
+  - title: '[unitaryHACK] Added syntax highlighting
+      and link to LICENSE in README'
+    number: 780
 - name: qutip/qutip
   data:
   - title: Version checks for `matplotlib` [unitaryHACK]
@@ -68,3 +76,4 @@
     number: 19
   - title: Updated README.md with rzeroes config [unitaryHACK]
     number: 20
+

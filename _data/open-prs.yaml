@@ -3,14 +3,10 @@
   data:
   - title: '[unitaryHACK] Update interface introduction'
     number: 1333
-  - title: '[unitaryHACK] Enable non-Hermitian operator
-      to be defined'
-    number: 1335
-- name: tqsd/QuNetSim
+- name: scirate/scirate
   data:
-  - title: '[unitaryHACK] Added BB84 protocol example
-      using QuNetSim #90'
-    number: 102
+  - title: '[unitaryHACK] Nix dev environment '
+    number: 433
 - name: pasqal-io/Pulser
   data:
   - title: '[unitaryHACK] Add type hints to `waveforms.py`
@@ -24,3 +20,16 @@
   - title: Add type hints in `_device_datacls.py` and
       `coders.py` [unitaryHACK] (#16)
     number: 169
+  - title: '[unitaryHACK] Add type hints to `channels.py`
+      (#16)'
+    number: 171
+  - title: '[unitaryHACK] Add type hints to `pulse.py`
+      (#16)'
+    number: 172
+  - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
+      (#16)'
+    number: 173
+  - title: Add type hints in `pulser.parametrized` [unitaryHACK]
+      (#16)
+    number: 175
+
