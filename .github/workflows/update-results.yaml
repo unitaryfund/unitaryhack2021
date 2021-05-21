@@ -29,7 +29,9 @@ jobs:
       - name: Scrape GitHub
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python _data/scrape_github.py
+        run: /
+          cd _data
+          python scrape_github.py
           
       - name: commit files
         run: |
