@@ -56,7 +56,7 @@ Pay special attention to issues tagged unitaryHACK as they are ones the project 
 
 If you want to talk to someone in real time about your contribution, we got ya covered! Hack office hours will be staffed by folks experienced in quantum and open source tools, and will be happy to help you out! You can see a calendar of times below, and the mentor will be hanging out in the #office-hours voice chat on [Discord](http://discord.unitary.fund) so feel free to drop in! Even if there are no office hours, always feel free to drop your question in #hack-help on [Discord](http://discord.unitary.fund).
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ### Make a pull request
 
