@@ -1,14 +1,11 @@
 ---
 - name: PennyLaneAI/pennylane
   data:
+  - title: '[unitaryHACK] Update interface introduction'
+    number: 1333
   - title: '[unitaryHACK] Enable non-Hermitian operator
       to be defined'
     number: 1335
-- name: vprusso/toqito
-  data:
-  - title: Implement construction of nonlocal game from
-      binary constraint system game [unitaryHACK]
-    number: 62
 - name: tqsd/QuNetSim
   data:
   - title: '[unitaryHACK] Added BB84 protocol example
@@ -27,4 +24,3 @@
   - title: Add type hints in `_device_datacls.py` and
       `coders.py` [unitaryHACK] (#16)
     number: 169
-
