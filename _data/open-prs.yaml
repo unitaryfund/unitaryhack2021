@@ -1,4 +1,4 @@
-updated: 22/05/2021 12:04:57
+updated: 22/05/2021 17:30:13
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -24,7 +24,7 @@ updated: 22/05/2021 12:04:57
   - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
       (#16)'
     number: 173
-  - title: Add type hints in `pulser.parametrized` [unitaryHACK]
+  - title: Add type hints in `pulser.simulation` [unitaryHACK]
       (#16)
-    number: 175
+    number: 176
 

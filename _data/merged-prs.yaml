@@ -1,4 +1,4 @@
-updated: 22/05/2021 12:07:13
+updated: 22/05/2021 17:32:27
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -76,6 +76,9 @@ updated: 22/05/2021 12:07:13
   - title: '[unitaryHACK] Add type hints to `channels.py`
       (#16)'
     number: 171
+  - title: Add type hints in `pulser.parametrized` [unitaryHACK]
+      (#16)
+    number: 175
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability
