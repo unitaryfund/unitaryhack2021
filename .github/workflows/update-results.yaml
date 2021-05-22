@@ -1,4 +1,4 @@
-name: GitHub Scrape Results
+name: GitHub Scrape Results Manual Deploy
 
 on:  
   workflow_dispatch:
@@ -33,16 +33,25 @@ jobs:
           cd _data
           python scrape_github.py
           
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "🏆 Update contest results 🏆" -a
+      # - name: commit files
+      #   run: |
+      #     git config --local user.email "action@github.com"
+      #     git config --local user.name "GitHub Action"
+      #     git add -A
+      #     git commit -m "🏆 Update contest results 🏆" -a
           
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          force: true  
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main
+      #     force: true  
+
+      - name: Build the website 
+        run:  bundle exec jekyll build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v1.1.0
+        env:
+          PUBLISH_DIR: _site 
+          PUBLISH_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
