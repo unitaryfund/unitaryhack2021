@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs: {}
   push:
-    branches: [ main ]
+    branches: [ main, manual-page-deploy ]
   schedule:
     - cron: '0 0,12 * * *' # runs every hour
 
