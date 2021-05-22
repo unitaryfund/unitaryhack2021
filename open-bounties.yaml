@@ -1,0 +1,146 @@
+updated: 22/05/2021 00:05:17
+---
+- name: unitaryfund/mitiq
+  data:
+  - title: Add tutorial example where mitiq makes a
+      variational problem trainable
+    number: 529
+  - title: Add type check to CI
+    number: 489
+  - title: Consider adding XACC executor example and
+      item to software list
+    number: 357
+  - title: Warn users when their programs are too short
+    number: 275
+- name: PennyLaneAI/pennylane
+  data:
+  - title: '[unitaryhack] Create a quantum simulator
+      in PyTorch'
+    number: 1225
+- name: XanaduAI/strawberryfields
+  data:
+  - title: '[unitaryhack] Add a hybrid Gaussian/non-Gaussian
+      compiler that merges Gaussian gates'
+    number: 574
+- name: XanaduAI/thewalrus
+  data:
+  - title: '[unitaryhack] Improve the calculation of
+      multidimensional hermite polynomials'
+    number: 214
+- name: vprusso/toqito
+  data:
+  - title: 'Feature: Is block-positive'
+    number: 45
+- name: scirate/scirate
+  data:
+  - title: build with nix
+    number: 429
+  - title: make a twitter/discord bot that posts the
+      top papers each day
+    number: 430
+- name: tqsd/QuNetSim
+  data:
+  - title: Develop a user interface for building the
+      network topology
+    number: 82
+  - title: Implement various QKD protocols.
+    number: 90
+  - title: Implement an example of a second generation
+      quantum repeater
+    number: 91
+- name: Interlin-q/Interlin-q
+  data:
+  - title: Map a pyQuirk circuit to  an Interlin-q circuit.
+    number: 35
+- name: pedrorrivero/qrand
+  data:
+  - title: CIRQ support
+    number: 1
+  - title: Q# support
+    number: 2
+  - title: Entropy validation suite
+    number: 3
+- name: vm6502q/qrack
+  data:
+  - title: 'Feature: Cirq plugin'
+    number: 678
+  - title: 'Feature: Optional CUDA Support'
+    number: 397
+- name: qutip/qutip
+  data:
+  - title: Unstable `qutip.testing.run()` prompts abort
+      traps locally (Mac, Python 3.7)
+    number: 1160
+- name: pasqal-io/Pulser
+  data:
+  - title: Add type hints, and use mypy to enforce in
+      CI
+    number: 16
+  - title: Add Support for Simulation in XY Mode
+    number: 147
+  - title: Display area and phase of pulse on it
+    number: 149
+- name: ornl-qci/qcor
+  data:
+  - title: qcor api for argument parsing
+    number: 123
+  - title: Improved CMake Target Exporting and Downstream
+      Quantum-Classical add_executable()
+    number: 101
+  - title: Quantum JIT Cache Manager
+    number: 126
+  - title: Python Wheels or Conda Binary
+    number: 129
+- name: eclipse/xacc
+  data:
+  - title: xacc::getAccelerator("ibm") automatic backend
+      selection based on jobs in the queue
+    number: 441
+  - title: Flexible Instruction Simulation
+    number: 442
+  - title: Implement 3-qubit decomposition
+    number: 437
+- name: QuantumBFS/Yao.jl
+  data:
+  - title: PastaQ integration
+    number: 280
+  - title: integrate YaoBlocks with IBMQClient and OpenQASM
+    number: 279
+  - title: webpage (tutorial/documentation/etc.) pipeline
+      improvements
+    number: 278
+- name: qosf/monthly-challenges
+  data:
+  - title: Design a monthly challenge (bounty)
+    number: 33
+  - title: Design a monthly challenge (bounty)
+    number: 34
+- name: dde/qqcs
+  data:
+  - title: Design new syntax to declare circuit lines
+      to be divided into separate registers.
+    number: 15
+  - title: Add an adjoint operator (') to the gate suffix
+      syntax and to the interpreter.
+    number: 16
+- name: microsoft/qsharp-compiler
+  data:
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (example 1)'
+    number: 1028
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (example 2) '
+    number: 1031
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (example 3) '
+    number: 1032
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (issue 1)'
+    number: 1030
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (issue 2)'
+    number: 1033
+  - title: 'Q# - Preview feature: Compilation to QIR
+      (issue 3)'
+    number: 1034
+
