@@ -30,12 +30,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r _data/requirements.txt
           
-      - name: Scrape GitHub
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          cd _data
-          python scrape_github.py
+      # - name: Scrape GitHub
+      #   env: 
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     cd _data
+      #     python scrape_github.py
           
       # - name: commit files
       #   run: |
@@ -52,7 +52,7 @@ jobs:
       #     force: true  
 
       - name: Build the website 
-        run:  bundle exec jekyll build
+        run:  bundle exec jekyll build --baseurl https://unitaryfund.github.io/unitaryhack
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
         env:
