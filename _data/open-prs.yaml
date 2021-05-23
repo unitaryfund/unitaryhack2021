@@ -1,4 +1,3 @@
-updated: 22/05/2021 12:04:57
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -27,4 +26,3 @@ updated: 22/05/2021 12:04:57
   - title: Add type hints in `pulser.parametrized` [unitaryHACK]
       (#16)
     number: 175
-
