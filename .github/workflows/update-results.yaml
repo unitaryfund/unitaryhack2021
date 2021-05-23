@@ -52,7 +52,7 @@ jobs:
       #     force: true  
 
       - name: Build the website 
-        run:  bundle exec jekyll build --baseurl https://unitaryfund.github.io/unitaryhack
+        run:  bundle exec jekyll build --baseurl /unitaryhack
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
         env:
