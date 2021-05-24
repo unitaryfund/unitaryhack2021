@@ -52,6 +52,12 @@ Pay special attention to issues tagged unitaryHACK as they are ones the project 
 
 > If you want to team up with other folks on an issue that you have found, you can make a comment on the Github issue. Even if you don't plan to team up, commenting on Github may help other hackers know if someone else is working on that issue (that's fine, but depending on the issue, only one pull request may be merged to solve an issue). You can also comment on discord in the #find-a-team channel.
 
+### Ask questions you might to someone live at office hours
+
+If you want to talk to someone in real time about your contribution, we got ya covered! Hack office hours will be staffed by folks experienced in quantum and open source tools, and will be happy to help you out! You can see a calendar of times below, and the mentor will be hanging out in the #office-hours voice chat on [Discord](http://discord.unitary.fund) so feel free to drop in! Even if there are no office hours, always feel free to drop your question in #hack-help on [Discord](http://discord.unitary.fund).
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
 ### Make a pull request
 
 Once you have a good solution to the issue, and have checked out the project's contributing guide (if they have one), you are ready to make your pull request or PR.

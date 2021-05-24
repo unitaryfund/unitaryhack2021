@@ -1,4 +1,9 @@
+updated: 24/05/2021 19:57:19
 ---
+- name: unitaryfund/mitiq
+  data:
+  - title: '[UnitaryHACK] ZNE-PEC uniformity'
+    number: 656
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryHACK] Add the XX operation'
@@ -19,6 +24,9 @@
   - title: '[unitaryHACK] Added SWAP gate decomposition
       and related tests'
     number: 1329
+  - title: ' [unitaryHACK] Add decomposition for qml.CSWAP
+      #1306 '
+    number: 1342
 - name: vprusso/toqito
   data:
   - title: Feature/bures distance [unitaryHACK]
@@ -42,6 +50,15 @@
     number: 103
   - title: Templater upgrade [unitaryHACK]
     number: 105
+  - title: '[UnitaryHACK] Implemented B92.py'
+    number: 107
+  - title: '[UnitaryHACK] Implemented Six State Protocol.py'
+    number: 108
+  - title: '[UnitaryHACK] Implemented BBM92.py'
+    number: 109
+  - title: '[UnitaryHACK] Added a B92 protocol including
+      interception, and a .rst file'
+    number: 114
 - name: pedrorrivero/qrand
   data:
   - title: '[unitaryHACK] (#7) Implement random Octal,
@@ -75,6 +92,9 @@
   - title: '[unitaryHACK] Add type hints to `channels.py`
       (#16)'
     number: 171
+  - title: Add type hints in `pulser.parametrized` [unitaryHACK]
+      (#16)
+    number: 175
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability
