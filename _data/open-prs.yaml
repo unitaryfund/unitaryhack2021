@@ -1,17 +1,39 @@
-updated: 24/05/2021 12:05:13
+updated: 24/05/2021 17:37:08
 ---
 - name: PennyLaneAI/pennylane
   data:
+  - title: '[unitaryhack] Change the order of the covariance
+      matrix and the vector of means internally in `default.gaussian`
+      for `gaussian_state`'
+    number: 1331
   - title: '[unitaryHACK] Update interface introduction'
     number: 1333
+  - title: '[unitaryhack] a quantum simulator in PyTorch
+      #1225'
+    number: 1351
+  - title: '[unitaryhack] [WIP] Add a projector observable'
+    number: 1356
   - title: '[unitaryHACK] Add the YY gate'
     number: 1358
   - title: '[unitaryHACK] Added __str__ method for QNode'
     number: 1359
+  - title: '[unitaryHACK] Create a Pytorch simulator
+      #1225'
+    number: 1360
 - name: scirate/scirate
   data:
   - title: '[unitaryHACK] Nix dev environment '
     number: 433
+- name: tqsd/QuNetSim
+  data:
+  - title: '[UnitaryHACK] Implemented BB84.py'
+    number: 106
+  - title: '[UnitaryHACK] Added b92.py'
+    number: 110
+  - title: '[UnitaryHACK] Added E91 protocol'
+    number: 111
+  - title: '[UnitaryHACK] Implemented E91 Protocol'
+    number: 112
 - name: pasqal-io/Pulser
   data:
   - title: Add phase and area text to pulse plot [unitaryHACK]
