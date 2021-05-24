@@ -1,9 +1,11 @@
-updated: 23/05/2021 12:05:17
+updated: 24/05/2021 00:09:58
 ---
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryHACK] Update interface introduction'
     number: 1333
+  - title: '[unitaryHACK] Add the YY gate'
+    number: 1358
 - name: scirate/scirate
   data:
   - title: '[unitaryHACK] Nix dev environment '
