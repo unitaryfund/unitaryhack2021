@@ -17,6 +17,7 @@ bountied_issues = {"unitaryfund/mitiq":[529,489,357,275,590], "PennyLaneAI/penny
                    "pasqal-io/Pulser":[16,147,149], "ornl-qci/qcor":[123,101,126,129], "eclipse/xacc":[441,442,437],
                    "QuantumBFS/Yao.jl":[280,279,278], "qosf/monthly-challenges":[33,34],"dde/qqcs":[15,16,18], 
                    "microsoft/qsharp-compiler":[1028,1031,1032,1030,1033,1034]}
+tags = ["[unitaryHACK]", "[unitaryhack]", "[UnitaryHACK]", "[UnitaryHack]"]
 
 def format_as_yaml(results:dict, include_empty=False, header=""):
     return header + "\n" + yaml.dump(
@@ -34,7 +35,7 @@ def unitary_hack_prs(participating_projects, atribute="title", status="open"):
     open_prs = {}
     for project in participating_projects:
         pulls = g.get_repo(project).get_pulls(state=status, sort='created')
-        open_prs[project] = [getattr(pr, atribute) for pr in pulls if '[unitaryHACK]' in pr.title] 
+        open_prs[project] = [getattr(pr, atribute) for pr in pulls if any(x in pr.title for x in tags)] 
     return open_prs
 
 def unitary_hack_prs_yaml(participating_projects, state="open", merged=False):
@@ -42,7 +43,7 @@ def unitary_hack_prs_yaml(participating_projects, state="open", merged=False):
     for project in participating_projects:
         pulls = g.get_repo(project).get_pulls(state=state, sort='created')
         open_prs[project] = [{'title': pr.title, 'number': pr.number} for pr in pulls 
-                             if (('[unitaryHACK]' in pr.title) and (pr.merged==merged))] 
+                             if (any(x in pr.title for x in tags) and (pr.merged==merged))] 
     
     with open(("merged" if merged else "open") + "-prs.yaml", "w") as f:
         print(format_as_yaml(open_prs, 
