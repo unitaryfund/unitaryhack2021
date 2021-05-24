@@ -1,4 +1,4 @@
-updated: 24/05/2021 00:09:58
+updated: 24/05/2021 09:54:25
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -6,6 +6,8 @@ updated: 24/05/2021 00:09:58
     number: 1333
   - title: '[unitaryHACK] Add the YY gate'
     number: 1358
+  - title: '[unitaryHACK] Added __str__ method for QNode'
+    number: 1359
 - name: scirate/scirate
   data:
   - title: '[unitaryHACK] Nix dev environment '
