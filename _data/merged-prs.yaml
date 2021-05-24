@@ -1,4 +1,4 @@
-updated: 24/05/2021 17:39:31
+updated: 24/05/2021 19:57:19
 ---
 - name: unitaryfund/mitiq
   data:
@@ -24,6 +24,9 @@ updated: 24/05/2021 17:39:31
   - title: '[unitaryHACK] Added SWAP gate decomposition
       and related tests'
     number: 1329
+  - title: ' [unitaryHACK] Add decomposition for qml.CSWAP
+      #1306 '
+    number: 1342
 - name: vprusso/toqito
   data:
   - title: Feature/bures distance [unitaryHACK]
