@@ -85,7 +85,14 @@ title:
 
 <button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://airtable.com/embed/shrTG20PLC5cjVIPr'"><b>SIGN UP HERE!</b></button>
 
-You can find some tips on how to prepare for the hackathon in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](http://discord.unitary.fund), and make sure to check out [our code of conduct](CODE_OF_CONDUCT.md).
+### Need help getting started or unstuck?
+
+Come join our friendly team on [Discord](http://discord.unitary.fund) and ask folks LIVE your git, open source, or quantum questions! 
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+You can find some tips on how to participate in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](http://discord.unitary.fund). Make sure to check out [our code of conduct](CODE_OF_CONDUCT.md) as well.
+
 ### Are you a maintainer?
 
 We would love to support your quantum open source project by connecting eager hackers to issues you need help with!
