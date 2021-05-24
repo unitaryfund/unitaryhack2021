@@ -11,14 +11,14 @@ title: 🏆Results🏆
 <ul>
 {% for member in site.data.merged-prs %}
   <li>
-    <a href="https://github.com/{{ member.name}}">
-      {{ member.name}}
+    <a href="https://github.com/{{ member.name }}">
+      {{ member.name }}
     </a> :
     <ul>
     {% for issue in member.data %}
       <li>
-        <a href="https://github.com/{{ member.name}}/issues/{{issue.number}}">
-      {{ issue.title}} </a>
+        <a href="https://github.com/{{ member.name }}/issues/{{ issue.number }}">
+      {{ issue.title }} </a>
       </li>
       {% endfor %}
     </ul>
@@ -30,14 +30,14 @@ title: 🏆Results🏆
 <ul>
 {% for member in site.data.open-prs %}
   <li>
-    <a href="https://github.com/{{ member.name}}">
-      {{ member.name}}
+    <a href="https://github.com/{{ member.name }}">
+      {{ member.name }}
     </a> :
     <ul>
     {% for issue in member.data %}
       <li>
-        <a href="https://github.com/{{ member.name}}/issues/{{issue.number}}">
-      {{ issue.title}} </a>
+        <a href="https://github.com/{{ member.name }}/issues/{{ issue.number }}">
+      {{ issue.title }} </a>
       </li>
       {% endfor %}
     </ul>
@@ -50,14 +50,14 @@ title: 🏆Results🏆
 <ul>
 {% for member in site.data.closed-bounties %}
   <li>
-    <a href="https://github.com/{{ member.name}}">
-      {{ member.name}}
+    <a href="https://github.com/{{ member.name }}">
+      {{ member.name }}
     </a> :
     <ul>
     {% for issue in member.data %}
       <li>
-        <a href="https://github.com/{{ member.name}}/issues/{{issue.number}}">
-      {{ issue.title}} </a>
+        <a href="https://github.com/{{ member.name }}/issues/{{issue.number }}">
+      {{ issue.title }} </a>
       </li>
       {% endfor %}
     </ul>
@@ -69,14 +69,14 @@ title: 🏆Results🏆
 <ul>
 {% for member in site.data.open-bounties %}
   <li>
-    <a href="https://github.com/{{ member.name}}">
-      {{ member.name}}
+    <a href="https://github.com/{{ member.name }}">
+      {{ member.name }}
     </a> :
     <ul>
     {% for issue in member.data %}
       <li>
-        <a href="https://github.com/{{ member.name}}/issues/{{issue.number}}">
-      {{ issue.title}} </a>
+        <a href="https://github.com/{{ member.name }}/issues/{{ issue.number }}">
+      {{ issue.title }} </a>
       </li>
       {% endfor %}
     </ul>
