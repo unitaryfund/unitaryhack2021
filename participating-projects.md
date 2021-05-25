@@ -141,7 +141,8 @@ wanted"](https://github.com/scirate/scirate/issues?q=is%3Aissue+is%3Aopen+label%
 ### Bounties
 
 #### $125 each
-- [Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)
+- ~~[Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)~~
+  - HACKED by [infiniteregrets](https://github.com/infiniteregrets): [scirate-bots](https://github.com/scirate/scirate-bots/pull/1)
 - [Build and deploy with nix](https://github.com/scirate/scirate/issues/429)
 
 ---

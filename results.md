@@ -7,6 +7,12 @@ title: 🏆Results🏆
 
 ---
 ## 📥 Hackathon Submissions 📥
+
+### 🆕 New projects/repos started 🆕
+
+- SciRate: [Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)
+  - [scirate-bots](https://github.com/scirate/scirate-bots/pull/1) by [infiniteregrets](https://github.com/infiniteregrets) 
+
 ### 🎉 Accepted Pull Requests 🎉
 <ul>
 {% for member in site.data.merged-prs %}
@@ -44,7 +50,9 @@ title: 🏆Results🏆
   </li>
 {% endfor %}
 </ul>
+
 ---
+
 ## 💰 Bounties 💰
 ### 💸 Completed Bounties 💸
 <ul>
