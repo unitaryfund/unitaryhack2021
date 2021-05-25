@@ -1,4 +1,4 @@
-updated: 25/05/2021 00:10:15
+updated: 25/05/2021 05:19:36
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -53,4 +53,9 @@ updated: 25/05/2021 00:10:15
   - title: Add type hints in `pulser.simulation` [unitaryHACK]
       (#16)
     number: 176
+- name: dde/qqcs
+  data:
+  - title: '[unitaryHACK] exit-issue discussion on qdesk_interactive.js
+      [WIP]'
+    number: 22
 
