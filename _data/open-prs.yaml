@@ -1,4 +1,4 @@
-updated: 25/05/2021 05:19:36
+updated: 25/05/2021 12:05:02
 ---
 - name: PennyLaneAI/pennylane
   data:
@@ -6,8 +6,6 @@ updated: 25/05/2021 05:19:36
       matrix and the vector of means internally in `default.gaussian`
       for `gaussian_state`'
     number: 1331
-  - title: '[unitaryHACK] Update interface introduction'
-    number: 1333
   - title: '[unitaryhack] a quantum simulator in PyTorch
       #1225'
     number: 1351
@@ -15,7 +13,8 @@ updated: 25/05/2021 05:19:36
     number: 1356
   - title: '[unitaryHACK] Add the YY gate'
     number: 1358
-  - title: '[unitaryHACK] Added __str__ method for QNode'
+  - title: '[unitaryHACK] Added `__repr__` method for
+      QNode'
     number: 1359
   - title: '[unitaryHACK] Create a Pytorch simulator
       #1225'
@@ -41,12 +40,6 @@ updated: 25/05/2021 05:19:36
   - title: '[unitaryHACK] Add type hints to `sequence.py`
       (#16)'
     number: 167
-  - title: Add type hints in `_device_datacls.py` and
-      `coders.py` [unitaryHACK] (#16)
-    number: 169
-  - title: '[unitaryHACK] Add type hints to `pulse.py`
-      (#16)'
-    number: 172
   - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
       (#16)'
     number: 173

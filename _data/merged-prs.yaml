@@ -1,4 +1,4 @@
-updated: 25/05/2021 05:21:52
+updated: 25/05/2021 12:07:37
 ---
 - name: unitaryfund/mitiq
   data:
@@ -24,6 +24,8 @@ updated: 25/05/2021 05:21:52
   - title: '[unitaryHACK] Added SWAP gate decomposition
       and related tests'
     number: 1329
+  - title: '[unitaryHACK] Update interface introduction'
+    number: 1333
   - title: ' [unitaryHACK] Add decomposition for qml.CSWAP
       #1306 '
     number: 1342
@@ -89,9 +91,15 @@ updated: 25/05/2021 05:21:52
   - title: '[unitaryHACK] Add type hints to `waveforms.py`
       (#16)'
     number: 163
+  - title: Add type hints in `_device_datacls.py` and
+      `coders.py` [unitaryHACK] (#16)
+    number: 169
   - title: '[unitaryHACK] Add type hints to `channels.py`
       (#16)'
     number: 171
+  - title: '[unitaryHACK] Add type hints to `pulse.py`
+      (#16)'
+    number: 172
   - title: Add type hints in `pulser.parametrized` [unitaryHACK]
       (#16)
     number: 175
