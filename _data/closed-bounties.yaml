@@ -1,4 +1,4 @@
-updated: 25/05/2021 12:08:04
+updated: 26/05/2021 00:16:47
 ---
 - name: unitaryfund/mitiq
   data:
@@ -11,6 +11,11 @@ updated: 25/05/2021 12:08:04
   - title: 'Feature: Convert description of a binary
       constraint game to a nonlocal game'
     number: 44
+- name: scirate/scirate
+  data:
+  - title: make a twitter/discord bot that posts the
+      top papers each day
+    number: 430
 - name: tqsd/QuNetSim
   data:
   - title: Improve the Templater script to be more customizable

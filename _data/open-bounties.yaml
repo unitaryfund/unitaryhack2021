@@ -1,4 +1,4 @@
-updated: 25/05/2021 12:07:50
+updated: 26/05/2021 00:16:36
 ---
 - name: unitaryfund/mitiq
   data:
@@ -35,9 +35,6 @@ updated: 25/05/2021 12:07:50
   data:
   - title: build with nix
     number: 429
-  - title: make a twitter/discord bot that posts the
-      top papers each day
-    number: 430
 - name: tqsd/QuNetSim
   data:
   - title: Develop a user interface for building the

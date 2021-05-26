@@ -1,4 +1,4 @@
-updated: 25/05/2021 12:07:37
+updated: 26/05/2021 00:16:25
 ---
 - name: unitaryfund/mitiq
   data:
@@ -52,12 +52,16 @@ updated: 25/05/2021 12:07:37
     number: 103
   - title: Templater upgrade [unitaryHACK]
     number: 105
+  - title: '[UnitaryHACK] Implemented BB84.py'
+    number: 106
   - title: '[UnitaryHACK] Implemented B92.py'
     number: 107
   - title: '[UnitaryHACK] Implemented Six State Protocol.py'
     number: 108
   - title: '[UnitaryHACK] Implemented BBM92.py'
     number: 109
+  - title: '[UnitaryHACK] Implemented E91 Protocol'
+    number: 112
   - title: '[UnitaryHACK] Added a B92 protocol including
       interception, and a .rst file'
     number: 114
