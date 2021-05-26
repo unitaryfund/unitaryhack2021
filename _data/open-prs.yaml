@@ -1,4 +1,4 @@
-updated: 26/05/2021 00:13:50
+updated: 26/05/2021 12:06:13
 ---
 - name: unitaryfund/mitiq
   data:
@@ -11,9 +11,6 @@ updated: 26/05/2021 00:13:50
       matrix and the vector of means internally in `default.gaussian`
       for `gaussian_state`'
     number: 1331
-  - title: '[unitaryhack] a quantum simulator in PyTorch
-      #1225'
-    number: 1351
   - title: '[unitaryhack] [WIP] Add a projector observable'
     number: 1356
   - title: '[unitaryHACK] Add the YY gate'
