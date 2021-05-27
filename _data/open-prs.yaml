@@ -1,47 +1,57 @@
-updated: 26/05/2021 12:06:13
+# updated: 27/05/2021 15:40:27
 ---
-- name: unitaryfund/mitiq
-  data:
-  - title: '[UnitaryHACK] Improve conversion from braket
-      to cirq'
-    number: 688
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryhack] Change the order of the covariance
       matrix and the vector of means internally in `default.gaussian`
       for `gaussian_state`'
     number: 1331
+    user: l45k
   - title: '[unitaryhack] [WIP] Add a projector observable'
     number: 1356
+    user: wongwsvincent
   - title: '[unitaryHACK] Add the YY gate'
     number: 1358
-  - title: '[unitaryHACK] Added `__repr__` method for
-      QNode'
-    number: 1359
+    user: paniash
   - title: '[unitaryHACK] Create a Pytorch simulator
       #1225'
     number: 1360
+    user: Slimane33
+- name: vprusso/toqito
+  data:
+  - title: Feature/singlet [unitaryHACK]
+    number: 67
+    user: victor-onofre
 - name: scirate/scirate
   data:
   - title: '[unitaryHACK] Nix dev environment '
     number: 433
+    user: infiniteregrets
 - name: tqsd/QuNetSim
   data:
   - title: '[UnitaryHACK] Added b92.py'
     number: 110
+    user: fvista
   - title: '[UnitaryHACK] Added E91 protocol'
     number: 111
+    user: fvista
+- name: pedrorrivero/qrand
+  data:
+  - title: '[unitaryHACK] (#3) Frequency Test'
+    number: 15
+    user: charmerDark
 - name: pasqal-io/Pulser
   data:
-  - title: Add phase and area text to pulse plot [unitaryHACK]
-    number: 166
   - title: '[unitaryHACK] Add type hints to `sequence.py`
       (#16)'
     number: 167
+    user: LaurentAjdnik
   - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
       (#16)'
     number: 173
+    user: LaurentAjdnik
   - title: Add type hints in `pulser.simulation` [unitaryHACK]
       (#16)
     number: 176
+    user: TripleR47
 

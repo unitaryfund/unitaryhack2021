@@ -2,7 +2,13 @@
 layout: page
 title:
 ---
-<script>
+<h3><label for="file"><strong>Hacks completed: 42!</strong> Can we make it to 50?!</label></h3>
+
+<progress id="prs" max="50" value="42" style="width:100%;height:40px;"> 42/50 </progress>
+
+<br>
+
+<!-- <script>
 (function () {
   const second = 1000,
     minute = second * 60,
@@ -62,7 +68,7 @@ title:
     </tr>
     </table>
   </div>
-</div>
+</div> -->
 
 <figure>
 <img style="max-width: 60%;
@@ -89,20 +95,28 @@ title:
 
 Come join our friendly team on [Discord](http://discord.unitary.fund) and ask folks LIVE your git, open source, or quantum questions! 
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrY0gGMjY2aK3yT1?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="300" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 You can find some tips on how to participate in our [hacker guide](./hacker-guide.md) as well as the [hackathon rules](./rules.md), and you can always ask questions of the Unitary Fund team on our [Discord](http://discord.unitary.fund). Make sure to check out [our code of conduct](CODE_OF_CONDUCT.md) as well.
 
-### Are you a maintainer?
+### Thanks to our supporters!
 
-We would love to support your quantum open source project by connecting eager hackers to issues you need help with!
-Check out our [maintainer guide](./maintainer-guide.md)
-
-### Thanks to our supporters
-
-- [Unitary Fund](https://unitary.fund/)
-- [Xanadu](https://xanadu.ai/)
-- [PASQAL](https://pasqal.io/)
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:grey;border-style:none;border-width:1px;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-sj11{!important;;font-size:medium; text-align:left;vertical-align:middle}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <td class="tg-sj11"><a href="https://unitary.fund/"><strong>Unitary Fund</strong></a></td>
+    <td class="tg-sj11"><a href="https://xanadu.ai/"><strong>Xanadu</strong></a></td>
+    <td class="tg-sj11"><a href="https://pasqal.io/"><strong>PASQAL</strong></a></td>
+    <td class="tg-sj11"><a href="https://dorahacks.com/"><strong>DoraHacks</strong></a></td>
+  </tr>
+</tbody>
+</table>
 
 #### Support this project🙏
 

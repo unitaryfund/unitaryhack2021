@@ -1,117 +1,167 @@
-updated: 26/05/2021 12:08:51
+# updated: 27/05/2021 15:43:22
 ---
 - name: unitaryfund/mitiq
   data:
   - title: '[UnitaryHACK] ZNE-PEC uniformity'
     number: 656
+    user: andre-a-alves
+  - title: '[UnitaryHACK] Improve conversion from braket
+      to cirq'
+    number: 688
+    user: maxtremblay
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryHACK] Add the XX operation'
     number: 1194
+    user: aglitoiu
   - title: '[unitaryHACK] Adds a new ZZ operation'
     number: 1199
+    user: Miru19
   - title: '[unitaryHACK] Add the ISWAP operation to
       default_qubit device'
     number: 1298
+    user: brs96
   - title: '[unitaryHACK] Add the CPhase operation'
     number: 1319
+    user: nahumsa
   - title: '[unitaryHACK] Toffoli Decomposition'
     number: 1320
+    user: tgag17
   - title: '[unitaryHACK] Add reset error to noise channels'
     number: 1321
+    user: nahumsa
   - title: '[unitaryHACK] Deprecated qml.inv()'
     number: 1325
+    user: tgag17
   - title: '[unitaryHACK] Added SWAP gate decomposition
       and related tests'
     number: 1329
+    user: charmerDark
   - title: '[unitaryHACK] Update interface introduction'
     number: 1333
+    user: ryanhill1
   - title: ' [unitaryHACK] Add decomposition for qml.CSWAP
       #1306 '
     number: 1342
+    user: MaldoAlberto
+  - title: '[unitaryHACK] Added `__repr__` method for
+      QNode'
+    number: 1359
+    user: paniash
 - name: vprusso/toqito
   data:
   - title: Feature/bures distance [unitaryHACK]
     number: 60
+    user: victor-onofre
   - title: NPA hierarchy [unitaryHACK]
     number: 61
+    user: georgios-ts
   - title: Implement construction of nonlocal game from
       binary constraint system game [unitaryHACK]
     number: 62
+    user: theRoughCode
 - name: tqsd/QuNetSim
   data:
   - title: Remove Project Q warning from install [unitaryHACK]
     number: 99
+    user: andre-a-alves
   - title: Generate simple topologies [unitaryHACK]
     number: 100
+    user: andre-a-alves
   - title: '[unitaryHACK] Added BB84 protocol example
       using QuNetSim #90'
     number: 102
+    user: RamAIbot
   - title: '[unitaryHACK] Implemented BB84 protocol
       without Interception.py'
     number: 103
+    user: pritamsinha2304
   - title: Templater upgrade [unitaryHACK]
     number: 105
+    user: stephendiadamo
   - title: '[UnitaryHACK] Implemented BB84.py'
     number: 106
+    user: pritamsinha2304
   - title: '[UnitaryHACK] Implemented B92.py'
     number: 107
+    user: pritamsinha2304
   - title: '[UnitaryHACK] Implemented Six State Protocol.py'
     number: 108
+    user: pritamsinha2304
   - title: '[UnitaryHACK] Implemented BBM92.py'
     number: 109
+    user: pritamsinha2304
   - title: '[UnitaryHACK] Implemented E91 Protocol'
     number: 112
+    user: pritamsinha2304
   - title: '[UnitaryHACK] Added a B92 protocol including
       interception, and a .rst file'
     number: 114
+    user: stephendiadamo
 - name: pedrorrivero/qrand
   data:
   - title: '[unitaryHACK] (#7) Implement random Octal,
       Hex, Base32, and Base64 encodings'
     number: 12
+    user: Avhijit-codeboy
 - name: vm6502q/qrack
   data:
   - title: '[unitaryHACK] Added syntax highlighting
       and link to LICENSE in README'
     number: 780
+    user: paniash
 - name: qutip/qutip
   data:
   - title: Version checks for `matplotlib` [unitaryHACK]
     number: 1556
+    user: Yash-10
   - title: Fix ffmpeg error [unitaryHACK]
     number: 1557
+    user: Yash-10
   - title: Fix Axes3D object is not iterable [unitaryHACK]
     number: 1558
+    user: WingCode
 - name: pasqal-io/Pulser
   data:
   - title: '[unitaryHACK] `Register.hexagon()`, `Register.max_connectivity()`
       (#132), Enhanced `ValueError` messages (#148),
       Type hinting for `Register` (#16)'
     number: 155
+    user: LaurentAjdnik
   - title: Change instances of `.format` to f-strings
       [unitaryHACK]
     number: 162
+    user: Yash-10
   - title: '[unitaryHACK] Add type hints to `waveforms.py`
       (#16)'
     number: 163
+    user: LaurentAjdnik
+  - title: Add phase and area text to pulse plot [unitaryHACK]
+    number: 166
+    user: Yash-10
   - title: Add type hints in `_device_datacls.py` and
       `coders.py` [unitaryHACK] (#16)
     number: 169
+    user: TripleR47
   - title: '[unitaryHACK] Add type hints to `channels.py`
       (#16)'
     number: 171
+    user: LaurentAjdnik
   - title: '[unitaryHACK] Add type hints to `pulse.py`
       (#16)'
     number: 172
+    user: LaurentAjdnik
   - title: Add type hints in `pulser.parametrized` [unitaryHACK]
       (#16)
     number: 175
+    user: TripleR47
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability
       in sparse matrix [unitaryHACK]
     number: 19
+    user: WingCode
   - title: Updated README.md with rzeroes config [unitaryHACK]
     number: 20
+    user: WingCode
 

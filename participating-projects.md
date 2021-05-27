@@ -124,8 +124,10 @@ aspects of quantum information that are often associated with computer science.
 
 #### $85 each
 
-- [Implement feature for calculating the NPA hierarchy](https://github.com/vprusso/toqito/issues/5)
-- [Implement feature for converting a binary constraint game to a nonlocal game](https://github.com/vprusso/toqito/issues/44)
+- ~~[Implement feature for calculating the NPA hierarchy](https://github.com/vprusso/toqito/issues/5)~~
+  - **[georgios-ts](https://github.com/georgios-ts)** HACKED [NPA hierarchy [unitaryHACK]](https://github.com/vprusso/toqito/issues/61)
+- ~~[Implement feature for converting a binary constraint game to a nonlocal game](https://github.com/vprusso/toqito/issues/44)~~
+  - **[theRoughCode](https://github.com/theRoughCode)** HACKED [Implement construction of nonlocal game from binary constraint system game [unitaryHACK]](https://github.com/vprusso/toqito/issues/62)
 - [Implement feature for determining whether an operator is block-positive](https://github.com/vprusso/toqito/issues/45)
 
 ---
@@ -141,7 +143,8 @@ wanted"](https://github.com/scirate/scirate/issues?q=is%3Aissue+is%3Aopen+label%
 ### Bounties
 
 #### $125 each
-- [Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)
+- ~~[Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430)~~
+  - **[infiniteregrets](https://github.com/infiniteregrets)** HACKED [scirate-bots](https://github.com/scirate/scirate-bots/pull/1)
 - [Build and deploy with nix](https://github.com/scirate/scirate/issues/429)
 
 ---
@@ -159,7 +162,8 @@ You can watch the Quantum Software Talk on QuNetSim on [YouTube](https://www.you
 
 - [Develop a user interface for QuNetSim](https://github.com/tqsd/QuNetSim/issues/82)
 - [Develop QKD protocols](https://github.com/tqsd/QuNetSim/issues/90)
-- [Develop a more complex templating script](https://github.com/tqsd/QuNetSim/issues/52)
+- ~~[Develop a more complex templating script](https://github.com/tqsd/QuNetSim/issues/52)~~
+  - **[andre-a-alves](https://github.com/andre-a-alves)** HACKED [Templater upgrade [unitaryHACK]](https://github.com/tqsd/QuNetSim/pull/105)
 - [Develop an example of a second generation quantum repeater](https://github.com/tqsd/QuNetSim/issues/91)
 
 ---
@@ -233,14 +237,15 @@ You can watch the Quantum Software Talk on QuTiP on [YouTube](https://www.youtub
 ### Bounties
 
 #### $25
-- [Fix error raised by ffmpeg command from User Guide](https://github.com/qutip/qutip/issues/799)
-- [Bloch sphere requires matplotlib >= 3.3](https://github.com/qutip/qutip/issues/1502)
-- [Address deprecation warnings in Matplotlib 3.4](https://github.com/qutip/qutip/issues/1503)
+- ~~[Fix error raised by ffmpeg command from User Guide](https://github.com/qutip/qutip/issues/799)~~
+  - **[Yash-10](https://github.com/Yash-10)** HACKED [Fix ffmpeg error [unitaryHACK]](https://github.com/qutip/qutip/pull/1557)
+- ~~[Bloch sphere requires matplotlib >= 3.3](https://github.com/qutip/qutip/issues/1502)~~
+  - **[Yash-10](https://github.com/Yash-10)** HACKED [Version checks for matplotlib [unitaryHACK]](https://github.com/qutip/qutip/pull/1556)
+- ~~[Address deprecation warnings in Matplotlib 3.4](https://github.com/qutip/qutip/issues/1503)~~
+  - **[Yash-10](https://github.com/Yash-10)** HACKED [Version checks for matplotlib [unitaryHACK]](https://github.com/qutip/qutip/pull/1556)
 
 #### $75
 - [Address "malloc: Incorrect checksum" error in qutip.testing qt.run()](https://github.com/qutip/qutip/issues/1160)
-
-TBD
 
 ---
 
@@ -257,7 +262,8 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 - [Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)
 
 #### $50
-- [Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)
+- ~~[Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)~~
+  - **[Yash-10](https://github.com/Yash-10)** HACKED [Add phase and area text to pulse plot [unitaryHACK]](https://github.com/pasqal-io/Pulser/pull/166)
 
 ---
 
@@ -338,7 +344,8 @@ QQCS is a simple linear notation for the simulation of quantum circuits.
 - [Add an adjoint operator (') the gate suffix syntax and to the interpreter.](https://github.com/dde/qqcs/issues/16)
 
 #### $25
-- [Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)
+- ~~[Add a command line switch to display sparse matrices with periods (.) replacing zero elements (0).](https://github.com/dde/qqcs/issues/18)~~
+  - **[WingCode](https://github.com/WingCode)** HACKED [Added command line switch for better readability in sparse matrix [unitaryHACK]](https://github.com/dde/qqcs/pull/19)
 
 ---
 

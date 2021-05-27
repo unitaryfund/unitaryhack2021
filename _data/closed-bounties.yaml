@@ -1,37 +1,56 @@
-updated: 26/05/2021 12:09:18
+# updated: 27/05/2021 15:50:02
 ---
 - name: unitaryfund/mitiq
   data:
   - title: Add braket support via rudimentary translator
     number: 590
+    user: rmlarose
 - name: vprusso/toqito
   data:
   - title: 'Feature: NPA hierarchy'
     number: 5
+    user: vprusso
   - title: 'Feature: Convert description of a binary
       constraint game to a nonlocal game'
     number: 44
+    user: vprusso
 - name: scirate/scirate
   data:
   - title: make a twitter/discord bot that posts the
       top papers each day
     number: 430
+    user: silky
 - name: tqsd/QuNetSim
   data:
   - title: Improve the Templater script to be more customizable
     number: 52
+    user: stephendiadamo
 - name: qutip/qutip
   data:
   - title: ffmpeg command from User Guide gives an error
     number: 799
+    user: tilek
   - title: Bloch sphere requires matplotlib >= 3.3
     number: 1502
+    user: jakelishman
   - title: matplotlib 3.4 issues new deprecation warnings
     number: 1503
+    user: jakelishman
+- name: pasqal-io/Pulser
+  data:
+  - title: Display area and phase of pulse on it
+    number: 149
+    user: romainfd
+- name: QuantumBFS/Yao.jl
+  data:
+  - title: PastaQ integration
+    number: 280
+    user: Roger-luo
 - name: dde/qqcs
   data:
   - title: 'Add a command line switch to display sparse
       matrices with periods (.) replacing zero elements
       (0). '
     number: 18
+    user: dde
 
