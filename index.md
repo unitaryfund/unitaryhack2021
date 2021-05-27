@@ -2,7 +2,12 @@
 layout: page
 title:
 ---
-<script>
+
+<h4><label for="prs"><strong>Hack Progress: 42 contributions!</strong> Can we get to 50?!</label></h4>
+
+<progress id="prs" max="50" value="42" style="width:100%;height:40px;"> 42 </progress><br>
+
+<!-- <script>
 (function () {
   const second = 1000,
     minute = second * 60,
@@ -62,7 +67,7 @@ title:
     </tr>
     </table>
   </div>
-</div>
+</div> -->
 
 <figure>
 <img style="max-width: 60%;

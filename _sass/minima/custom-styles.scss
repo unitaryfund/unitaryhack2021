@@ -1,2 +1,24 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+progress {
+    color: #f42098ff;
+    font-size: .6em;
+    line-height: 1.5em;
+    text-indent: .5em;
+    width: 15em;
+    height: 1.8em;
+    border: 1px solid #000;
+    background: #bbbbbbff;
+}
+
+progress::-moz-progress-bar {
+    background: #f42098ff;
+}
+
+progress::-webkit-progress-bar {
+    background: #bbbbbbff;
+}
+
+progress::-webkit-progress-value {
+    background: #f42098ff;
+}
