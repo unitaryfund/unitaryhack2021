@@ -18,57 +18,58 @@ bountied_issues = {"unitaryfund/mitiq":[529,489,357,275,590], "PennyLaneAI/penny
                    "QuantumBFS/Yao.jl":[280,279,278], "qosf/monthly-challenges":[33,34],"dde/qqcs":[15,16,18], 
                    "microsoft/qsharp-compiler":[1028,1031,1032,1030,1033,1034]}
 tags = ["[unitaryHACK]", "[unitaryhack]", "[UnitaryHACK]", "[UnitaryHack]"]
+participating_repos = { project : g.get_repo(project) for project in participating_projects }
 
 def format_as_yaml(results:dict, include_empty=False, header=""):
-    return header + "\n" + yaml.dump(
+    return "# " + header + "\n" + yaml.dump(
         [{'name' : k, 'data' : v} for k, v in results.items() if ((v!=[]) or include_empty)], 
         sort_keys=False, explicit_start=True, width=50, indent=2)
 
-def unitary_hack_labeled_issues(participating_projects, atribute="title",status="open"):
-    open_issues = {}
-    for project in participating_projects:
-        issues = g.get_repo(project).get_issues(state=status, sort='created', labels=['unitaryhack'])
-        open_issues[project] = [getattr(i, atribute) for i in issues] 
-    return open_issues
+def unitary_hack_labeled_issues(participating_repos, attribute="title",status="open"):
+    issues = {}
+    for name, project in participating_repos.items():
+        project_issues = project.get_issues(state=status, sort='created', labels=['unitaryhack'])
+        issues[name] = [getattr(i, attribute) for i in project_issues] 
+    return issues
 
-def unitary_hack_prs(participating_projects, atribute="title", status="open"):
-    open_prs = {}
-    for project in participating_projects:
-        pulls = g.get_repo(project).get_pulls(state=status, sort='created')
-        open_prs[project] = [getattr(pr, atribute) for pr in pulls if any(x in pr.title for x in tags)] 
-    return open_prs
+def unitary_hack_prs(participating_repos, attribute="title", state="open"):
+    prs = {}
+    for name, project in participating_repos.items():
+        pulls = project.get_pulls(state=state, sort='created')
+        prs[name] = [getattr(pr, attribute) for pr in pulls if any(x in pr.title for x in tags)] 
+    return prs
 
-def unitary_hack_prs_yaml(participating_projects, state="open", merged=False):
-    open_prs = {}
-    for project in participating_projects:
-        pulls = g.get_repo(project).get_pulls(state=state, sort='created')
-        open_prs[project] = [{'title': pr.title, 'number': pr.number} for pr in pulls 
+def unitary_hack_prs_yaml(participating_repos, state="open", merged=False):
+    prs = {}
+    for name, project in participating_repos.items():
+        pulls = project.get_pulls(state=state, sort='created')
+        prs[name] = [{'title': pr.title, 'number': pr.number, 'user': pr.user.login} for pr in pulls 
                              if (any(x in pr.title for x in tags) and (pr.merged==merged))] 
     
     with open(("merged" if merged else "open") + "-prs.yaml", "w") as f:
-        print(format_as_yaml(open_prs, 
+        print(format_as_yaml(prs, 
             header=f"updated: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"), 
             file=f
         )
     
-def unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="open"):    
+def unitary_hack_bounties_yaml(participating_repos, bountied_issues, state="open"):    
     bounties = {}
-    for project in participating_projects:
-        project_bounties = [g.get_repo(project).get_issue(num) for num in bountied_issues[project]]
-        bounties[project] = [{'title': i.title, 'number': i.number} for i in project_bounties if i.state==state] 
+    for name, project in participating_repos.items():
+        project_bounties = [project.get_issue(num) for num in bountied_issues[name]]
+        bounties[name] = [{'title': i.title, 'number': i.number, 'user': i.user.login} for i in project_bounties 
+                             if i.state==state] 
     
     with open(state + "-bounties.yaml", "w") as f:
         print(format_as_yaml(bounties, 
             header=f"updated: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}"), 
             file=f
         )
-
 print("Checking for pending PRs...")
-unitary_hack_prs_yaml(participating_projects, state="open", merged=False)
+unitary_hack_prs_yaml(participating_repos, state="open", merged=False)
 print("Checking for merged PRs...")
-unitary_hack_prs_yaml(participating_projects, state="closed", merged=True)
-print("Checking for open PRs...")
-unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="open")
-print("Checking for pending PRs...")
-unitary_hack_bounties_yaml(participating_projects, bountied_issues, state="closed")
+unitary_hack_prs_yaml(participating_repos, state="closed", merged=True)
+print("Checking for open bounties...")
+unitary_hack_bounties_yaml(participating_repos, bountied_issues, state="open")
+print("Checking for closed bounties...")
+unitary_hack_bounties_yaml(participating_repos, bountied_issues, state="closed")
 print("Done! ♥")
