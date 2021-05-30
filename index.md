@@ -2,9 +2,9 @@
 layout: page
 title:
 ---
-<h3><label for="file"><strong>Hacks completed: 42!</strong> Can we make it to 50?!</label></h3>
+<h3><label for="file"><strong>Hacks completed: 47!</strong> Can we make it to 50?!</label></h3>
 
-<progress id="prs" max="50" value="45" style="width:100%;height:40px;"> 45/50 </progress>
+<progress id="prs" max="50" value="47" style="width:100%;height:40px;"> 47/50 </progress>
 
 <br>
 
