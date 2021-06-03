@@ -9,7 +9,7 @@ Our goal at the Unitary Fund is to build a quantum technology ecosystem that ben
 That starts by supporting and growing the great ecosystem of projects already out there that is maintained by amazing folks like you.
 
 It is always important for projects to find skilled and committed contributors that can do things like help develop new functionality, maintain existing tools, and write tests and documentation that helps new users and contributors.
-This can be challenging in open source in general, but can be especially difficult for open source projects that need specialized skillets like quantum computing.
+This can be challenging in open source in general, but can be especially difficult for open source projects that need specialized skillsets like quantum computing.
 
 We want this event to show folks in the open source software community what amazing projects are already out there, helping to drive the field of quantum computing forward, and helping you find new ways and people to help grow your projects.
 
