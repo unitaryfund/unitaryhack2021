@@ -10,7 +10,7 @@ participating_projects = ["unitaryfund/mitiq", "PennyLaneAI/pennylane","XanaduAI
                           "vprusso/toqito","scirate/scirate","tqsd/QuNetSim","Interlin-q/Interlin-q","pedrorrivero/qrand",
                           "vm6502q/qrack","qutip/qutip","pasqal-io/Pulser","ornl-qci/qcor", "eclipse/xacc",
                           "QuantumBFS/Yao.jl","qosf/monthly-challenges","dde/qqcs", "microsoft/qsharp-compiler"]
-bountied_issues = {"unitaryfund/mitiq":[529,489,357,275,590], "PennyLaneAI/pennylane":[1225],
+bountied_issues = {"unitaryfund/mitiq":[529,489,357,275,679], "PennyLaneAI/pennylane":[1225],
                    "XanaduAI/strawberryfields":[574], "XanaduAI/thewalrus":[214], "vprusso/toqito":[5,44,45],
                    "scirate/scirate":[429,430], "tqsd/QuNetSim":[82,90,52,91], "Interlin-q/Interlin-q":[35],
                    "pedrorrivero/qrand":[1,2,3], "vm6502q/qrack":[678,397], "qutip/qutip":[799,1502,1503,1160],
