@@ -1,9 +1,12 @@
-# updated: 27/05/2021 15:50:02
+# updated: 06/06/2021 15:34:38
 ---
 - name: unitaryfund/mitiq
   data:
-  - title: Add braket support via rudimentary translator
-    number: 590
+  - title: Warn users when their programs are too short
+    number: 275
+    user: karalekas
+  - title: Improve braket support
+    number: 679
     user: rmlarose
 - name: vprusso/toqito
   data:
@@ -25,6 +28,16 @@
   - title: Improve the Templater script to be more customizable
     number: 52
     user: stephendiadamo
+- name: pedrorrivero/qrand
+  data:
+  - title: Q# support
+    number: 2
+    user: pedrorrivero
+- name: vm6502q/qrack
+  data:
+  - title: 'Feature: Cirq plugin'
+    number: 678
+    user: WrathfulSpatula
 - name: qutip/qutip
   data:
   - title: ffmpeg command from User Guide gives an error
@@ -38,6 +51,10 @@
     user: jakelishman
 - name: pasqal-io/Pulser
   data:
+  - title: Add type hints, and use mypy to enforce in
+      CI
+    number: 16
+    user: karalekas
   - title: Display area and phase of pulse on it
     number: 149
     user: romainfd
@@ -46,6 +63,11 @@
   - title: PastaQ integration
     number: 280
     user: Roger-luo
+- name: qosf/monthly-challenges
+  data:
+  - title: Design a monthly challenge (bounty)
+    number: 34
+    user: amirebrahimi
 - name: dde/qqcs
   data:
   - title: 'Add a command line switch to display sparse

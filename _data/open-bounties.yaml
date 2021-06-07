@@ -1,4 +1,4 @@
-# updated: 27/05/2021 15:43:31
+# updated: 06/06/2021 15:34:32
 ---
 - name: unitaryfund/mitiq
   data:
@@ -13,9 +13,6 @@
       item to software list
     number: 357
     user: nathanshammah
-  - title: Warn users when their programs are too short
-    number: 275
-    user: karalekas
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryhack] Create a quantum simulator
@@ -67,17 +64,11 @@
   - title: CIRQ support
     number: 1
     user: pedrorrivero
-  - title: Q# support
-    number: 2
-    user: pedrorrivero
   - title: Entropy validation suite
     number: 3
     user: pedrorrivero
 - name: vm6502q/qrack
   data:
-  - title: 'Feature: Cirq plugin'
-    number: 678
-    user: WrathfulSpatula
   - title: 'Feature: Optional CUDA Support'
     number: 397
     user: WrathfulSpatula
@@ -89,10 +80,6 @@
     user: nathanshammah
 - name: pasqal-io/Pulser
   data:
-  - title: Add type hints, and use mypy to enforce in
-      CI
-    number: 16
-    user: karalekas
   - title: Add Support for Simulation in XY Mode
     number: 147
     user: sebgrijalva
@@ -136,9 +123,6 @@
   data:
   - title: Design a monthly challenge (bounty)
     number: 33
-    user: amirebrahimi
-  - title: Design a monthly challenge (bounty)
-    number: 34
     user: amirebrahimi
 - name: dde/qqcs
   data:

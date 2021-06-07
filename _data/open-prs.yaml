@@ -1,5 +1,11 @@
-# updated: 27/05/2021 15:40:27
+# updated: 06/06/2021 15:32:01
 ---
+- name: unitaryfund/mitiq
+  data:
+  - title: '[draft pull request] Mitiq tutorial example
+      - variational classifier [unitaryHACK]'
+    number: 708
+    user: Misty-W
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryhack] Change the order of the covariance
@@ -7,9 +13,6 @@
       for `gaussian_state`'
     number: 1331
     user: l45k
-  - title: '[unitaryhack] [WIP] Add a projector observable'
-    number: 1356
-    user: wongwsvincent
   - title: '[unitaryHACK] Add the YY gate'
     number: 1358
     user: paniash
@@ -17,41 +20,29 @@
       #1225'
     number: 1360
     user: Slimane33
+- name: XanaduAI/strawberryfields
+  data:
+  - title: '[unitaryhack]Add support for threshold detection
+      of Gaussian states with displacement '
+    number: 590
+    user: Hannibalcarthaga
+  - title: '[unitaryHACK] Strawberry Fields: Gaussian
+      Merge'
+    number: 591
+    user: federico0112
 - name: vprusso/toqito
   data:
-  - title: Feature/singlet [unitaryHACK]
-    number: 67
-    user: victor-onofre
-- name: scirate/scirate
-  data:
-  - title: '[unitaryHACK] Nix dev environment '
-    number: 433
-    user: infiniteregrets
-- name: tqsd/QuNetSim
-  data:
-  - title: '[UnitaryHACK] Added b92.py'
-    number: 110
-    user: fvista
-  - title: '[UnitaryHACK] Added E91 protocol'
-    number: 111
-    user: fvista
+  - title: '#66  [unitaryHACK]  is_permutation [WIP]'
+    number: 70
+    user: vanzilar
 - name: pedrorrivero/qrand
   data:
-  - title: '[unitaryHACK] (#3) Frequency Test'
-    number: 15
-    user: charmerDark
-- name: pasqal-io/Pulser
+  - title: '[unitaryHACK](#1) Cirq Support'
+    number: 20
+    user: harry-stark
+- name: qosf/monthly-challenges
   data:
-  - title: '[unitaryHACK] Add type hints to `sequence.py`
-      (#16)'
-    number: 167
-    user: LaurentAjdnik
-  - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
-      (#16)'
-    number: 173
-    user: LaurentAjdnik
-  - title: Add type hints in `pulser.simulation` [unitaryHACK]
-      (#16)
-    number: 176
-    user: TripleR47
+  - title: add Challenge 7 [unitaryHACK]
+    number: 39
+    user: MaldoAlberto
 

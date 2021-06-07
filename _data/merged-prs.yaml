@@ -1,4 +1,4 @@
-# updated: 27/05/2021 15:43:22
+# updated: 06/06/2021 15:34:27
 ---
 - name: unitaryfund/mitiq
   data:
@@ -9,6 +9,9 @@
       to cirq'
     number: 688
     user: maxtremblay
+  - title: Warning for short programs [unitaryHACK]
+    number: 700
+    user: Yash-10
 - name: PennyLaneAI/pennylane
   data:
   - title: '[unitaryHACK] Add the XX operation'
@@ -44,6 +47,9 @@
       #1306 '
     number: 1342
     user: MaldoAlberto
+  - title: '[unitaryhack] Add a projector observable'
+    number: 1356
+    user: wongwsvincent
   - title: '[unitaryHACK] Added `__repr__` method for
       QNode'
     number: 1359
@@ -60,6 +66,12 @@
       binary constraint system game [unitaryHACK]
     number: 62
     user: theRoughCode
+  - title: Feature/singlet [unitaryHACK]
+    number: 67
+    user: victor-onofre
+  - title: Feature/is_quantum_channel [unitaryHACK]
+    number: 69
+    user: victor-onofre
 - name: tqsd/QuNetSim
   data:
   - title: Remove Project Q warning from install [unitaryHACK]
@@ -91,6 +103,12 @@
   - title: '[UnitaryHACK] Implemented BBM92.py'
     number: 109
     user: pritamsinha2304
+  - title: '[UnitaryHACK] Added b92.py'
+    number: 110
+    user: fvista
+  - title: '[UnitaryHACK] Added E91 protocol'
+    number: 111
+    user: fvista
   - title: '[UnitaryHACK] Implemented E91 Protocol'
     number: 112
     user: pritamsinha2304
@@ -104,6 +122,12 @@
       Hex, Base32, and Base64 encodings'
     number: 12
     user: Avhijit-codeboy
+  - title: '[unitaryHACK] (#2) Qsharp support'
+    number: 17
+    user: Avhijit-codeboy
+  - title: ' [unitaryHACK] (#3) MonobitFrequency Test'
+    number: 19
+    user: charmerDark
 - name: vm6502q/qrack
   data:
   - title: '[unitaryHACK] Added syntax highlighting
@@ -139,6 +163,10 @@
   - title: Add phase and area text to pulse plot [unitaryHACK]
     number: 166
     user: Yash-10
+  - title: '[unitaryHACK] Add type hints to `sequence.py`
+      (#16)'
+    number: 167
+    user: LaurentAjdnik
   - title: Add type hints in `_device_datacls.py` and
       `coders.py` [unitaryHACK] (#16)
     number: 169
@@ -151,10 +179,23 @@
       (#16)'
     number: 172
     user: LaurentAjdnik
+  - title: '[unitaryHACK] Add type hints to `_seq_drawer.py`
+      (#16)'
+    number: 173
+    user: LaurentAjdnik
   - title: Add type hints in `pulser.parametrized` [unitaryHACK]
       (#16)
     number: 175
     user: TripleR47
+  - title: Add type hints in `pulser.simulation` [unitaryHACK]
+      (#16)
+    number: 176
+    user: TripleR47
+- name: ornl-qci/qcor
+  data:
+  - title: Add argument parsing [unitaryHACK]
+    number: 160
+    user: amirebrahimi
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability
