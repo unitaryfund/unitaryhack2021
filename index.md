@@ -2,7 +2,7 @@
 layout: page
 title:
 ---
-<h3><label for="file"><strong>Final # of hacks completed: 60! 🎉</strong></label></h3>
+<h3><label for="file"><strong>Final # of hacks completed: 60+ 🎉</strong><br>🏆 The <a href="https://unitaryfund.github.io/unitaryhack/results.html">full results</a> 🏆</label></h3>
 
 <progress id="prs" max="50" value="60" style="width:100%;height:40px;"> 60/50 </progress>
 

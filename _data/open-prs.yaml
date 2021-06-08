@@ -40,6 +40,11 @@
   - title: '[unitaryHACK](#1) Cirq Support'
     number: 20
     user: harry-stark
+- name: pasqal-io/Pulser
+  data:
+  - title: XY simulation [unitaryHACK]
+    number: 183
+    user: Slimane33
 - name: qosf/monthly-challenges
   data:
   - title: add Challenge 7 [unitaryHACK]
