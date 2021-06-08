@@ -12,6 +12,12 @@ title: 🏆Results🏆
 ### [SciRate](https://github.com/scirate/scirate):
 - **[infiniteregrets](https://github.com/infiniteregrets)** HACKED [Make a twitter/discord bot that posts the top papers each day](https://github.com/scirate/scirate/issues/430) by building [scirate-bots](https://github.com/scirate/scirate-bots/pull/1)
 
+### [Yao.jl Website](https://github.com/QuantumBFS/QuantumBFS.github.io):
+- **[VarLad](https://github.com/VarLad)** HACKED the docs [by fixing tutorials](https://github.com/QuantumBFS/QuantumBFS.github.io/pull/9) and [making them more consistent](https://github.com/QuantumBFS/QuantumBFS.github.io/pull/9)
+
+### [Yao Ecosystem (QuantumBFS)](https://github.com/QuantumBFS):
+- **[Sov-trotter](https://github.com/Sov-trotter)** HACKED two new libraries, YaoBlocks interfaces for the [IBMQClient](https://github.com/QuantumBFS/YaoBlocksQobj.jl) and [OpenQASM](https://github.com/QuantumBFS/YaoBlocksQASM.jl)
+
 ---
 ## 🎉 Accepted Pull Requests 🎉
 

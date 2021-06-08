@@ -115,7 +115,7 @@
   - title: '[UnitaryHACK] Added a B92 protocol including
       interception, and a .rst file'
     number: 114
-    user: stephendiadamo
+    user: sashofthedark
 - name: pedrorrivero/qrand
   data:
   - title: '[unitaryHACK] (#7) Implement random Octal,
@@ -134,6 +134,11 @@
       and link to LICENSE in README'
     number: 780
     user: paniash
+- name: QuantumBFS/Yao.jl
+  data:
+  - title: Better display of docs [unitaryHACK]
+    number: 283
+    user: VarLad
 - name: qutip/qutip
   data:
   - title: Version checks for `matplotlib` [unitaryHACK]
