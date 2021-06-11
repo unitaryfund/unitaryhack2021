@@ -54,6 +54,12 @@
       QNode'
     number: 1359
     user: paniash
+- name: XanaduAI/strawberryfields
+  data:
+  - title: '[unitaryHACK] Strawberry Fields: Gaussian
+      Merge'
+    number: 591
+    user: federico0112
 - name: vprusso/toqito
   data:
   - title: Feature/bures distance [unitaryHACK]
@@ -72,6 +78,9 @@
   - title: Feature/is_quantum_channel [unitaryHACK]
     number: 69
     user: victor-onofre
+  - title: '[unitaryHACK]  is_permutation'
+    number: 70
+    user: vanzilar
 - name: tqsd/QuNetSim
   data:
   - title: Remove Project Q warning from install [unitaryHACK]

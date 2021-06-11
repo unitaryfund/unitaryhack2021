@@ -26,15 +26,6 @@
       of Gaussian states with displacement '
     number: 590
     user: Hannibalcarthaga
-  - title: '[unitaryHACK] Strawberry Fields: Gaussian
-      Merge'
-    number: 591
-    user: federico0112
-- name: vprusso/toqito
-  data:
-  - title: '#66  [unitaryHACK]  is_permutation [WIP]'
-    number: 70
-    user: vanzilar
 - name: pedrorrivero/qrand
   data:
   - title: '[unitaryHACK](#1) Cirq Support'
@@ -42,8 +33,8 @@
     user: harry-stark
 - name: pasqal-io/Pulser
   data:
-  - title: XY simulation [unitaryHACK]
-    number: 183
+  - title: Xy simulation [unitaryHACK]
+    number: 198
     user: Slimane33
 - name: qosf/monthly-challenges
   data:
