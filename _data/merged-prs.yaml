@@ -1,4 +1,4 @@
-# updated: 06/06/2021 15:34:27
+# updated: 14/06/2021 18:03:24
 ---
 - name: unitaryfund/mitiq
   data:
@@ -78,7 +78,7 @@
   - title: Feature/is_quantum_channel [unitaryHACK]
     number: 69
     user: victor-onofre
-  - title: '[unitaryHACK]  is_permutation'
+  - title: '#66  [unitaryHACK]  is_permutation '
     number: 70
     user: vanzilar
 - name: tqsd/QuNetSim
@@ -143,7 +143,7 @@
       and link to LICENSE in README'
     number: 780
     user: paniash
-- name: QuantumBFS/Yao.jl
+    - name: QuantumBFS/Yao.jl
   data:
   - title: Better display of docs [unitaryHACK]
     number: 283
@@ -210,6 +210,17 @@
   - title: Add argument parsing [unitaryHACK]
     number: 160
     user: amirebrahimi
+- name: eclipse/xacc
+  data:
+  - title: 'Ibmq accelerator select lowest queue backend:
+      resolve #441 [unitaryHACK]'
+    number: 451
+    user: flatslm
+- name: qosf/monthly-challenges
+  data:
+  - title: add Challenge 7 [unitaryHACK]
+    number: 39
+    user: MaldoAlberto
 - name: dde/qqcs
   data:
   - title: Added command line switch for better readability

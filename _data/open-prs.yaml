@@ -1,4 +1,4 @@
-# updated: 06/06/2021 15:32:01
+# updated: 14/06/2021 18:00:31
 ---
 - name: unitaryfund/mitiq
   data:
@@ -33,12 +33,7 @@
     user: harry-stark
 - name: pasqal-io/Pulser
   data:
-  - title: Xy simulation [unitaryHACK]
+  - title: '[unitaryHACK] Xy simulation'
     number: 198
     user: Slimane33
-- name: qosf/monthly-challenges
-  data:
-  - title: add Challenge 7 [unitaryHACK]
-    number: 39
-    user: MaldoAlberto
 

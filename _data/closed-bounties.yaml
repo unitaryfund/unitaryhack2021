@@ -1,13 +1,19 @@
-# updated: 06/06/2021 15:34:38
+# updated: 14/06/2021 18:03:41
 ---
 - name: unitaryfund/mitiq
   data:
   - title: Warn users when their programs are too short
     number: 275
     user: karalekas
-  - title: Improve braket support
-    number: 679
+  - title: Add braket support via rudimentary translator
+    number: 590
     user: rmlarose
+- name: XanaduAI/strawberryfields
+  data:
+  - title: '[unitaryhack] Add a hybrid Gaussian/non-Gaussian
+      compiler that merges Gaussian gates'
+    number: 574
+    user: josh146
 - name: vprusso/toqito
   data:
   - title: 'Feature: NPA hierarchy'
@@ -25,6 +31,10 @@
     user: silky
 - name: tqsd/QuNetSim
   data:
+  - title: Develop a user interface for building the
+      network topology
+    number: 82
+    user: stephendiadamo
   - title: Improve the Templater script to be more customizable
     number: 52
     user: stephendiadamo
@@ -58,6 +68,17 @@
   - title: Display area and phase of pulse on it
     number: 149
     user: romainfd
+- name: ornl-qci/qcor
+  data:
+  - title: qcor api for argument parsing
+    number: 123
+    user: amccaskey
+- name: eclipse/xacc
+  data:
+  - title: xacc::getAccelerator("ibm") automatic backend
+      selection based on jobs in the queue
+    number: 441
+    user: amccaskey
 - name: QuantumBFS/Yao.jl
   data:
   - title: PastaQ integration
@@ -65,6 +86,9 @@
     user: Roger-luo
 - name: qosf/monthly-challenges
   data:
+  - title: Design a monthly challenge (bounty)
+    number: 33
+    user: amirebrahimi
   - title: Design a monthly challenge (bounty)
     number: 34
     user: amirebrahimi

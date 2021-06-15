@@ -1,4 +1,4 @@
-# updated: 06/06/2021 15:34:32
+# updated: 14/06/2021 18:03:33
 ---
 - name: unitaryfund/mitiq
   data:
@@ -19,12 +19,6 @@
       in PyTorch'
     number: 1225
     user: co9olguy
-- name: XanaduAI/strawberryfields
-  data:
-  - title: '[unitaryhack] Add a hybrid Gaussian/non-Gaussian
-      compiler that merges Gaussian gates'
-    number: 574
-    user: josh146
 - name: XanaduAI/thewalrus
   data:
   - title: '[unitaryhack] Improve the calculation of
@@ -43,10 +37,6 @@
     user: silky
 - name: tqsd/QuNetSim
   data:
-  - title: Develop a user interface for building the
-      network topology
-    number: 82
-    user: stephendiadamo
   - title: Implement various QKD protocols.
     number: 90
     user: stephendiadamo
@@ -85,9 +75,6 @@
     user: sebgrijalva
 - name: ornl-qci/qcor
   data:
-  - title: qcor api for argument parsing
-    number: 123
-    user: amccaskey
   - title: Improved CMake Target Exporting and Downstream
       Quantum-Classical add_executable()
     number: 101
@@ -100,10 +87,6 @@
     user: amccaskey
 - name: eclipse/xacc
   data:
-  - title: xacc::getAccelerator("ibm") automatic backend
-      selection based on jobs in the queue
-    number: 441
-    user: amccaskey
   - title: Flexible Instruction Simulation
     number: 442
     user: amccaskey
@@ -119,11 +102,6 @@
       improvements
     number: 278
     user: Roger-luo
-- name: qosf/monthly-challenges
-  data:
-  - title: Design a monthly challenge (bounty)
-    number: 33
-    user: amirebrahimi
 - name: dde/qqcs
   data:
   - title: Design new syntax to declare circuit lines
