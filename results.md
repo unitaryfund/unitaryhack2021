@@ -62,7 +62,8 @@ title: 🏆Results🏆
   <ul>
   {% for pr in member.data %}
     <li>
-      <a href="https://github.com/{{ member.name }}/issues/{{ pr.number }}"> {{ pr.title }}</a> was CASHED IN
+      <strong><a href="https://github.com/{{ pr.user }}"> {{ pr.user }}</a></strong> HACKED
+      <a href="https://github.com/{{ member.name }}/issues/{{ pr.number }}"> {{ pr.title }}</a>
     </li>
     {% endfor %}
   </ul>
