@@ -125,6 +125,9 @@
       interception, and a .rst file'
     number: 114
     user: sashofthedark
+  - title: 'Generate simple topologies [unitaryHACK]'
+    number: 100
+    user: MrRobot2211
 - name: pedrorrivero/qrand
   data:
   - title: '[unitaryHACK] (#7) Implement random Octal,
@@ -139,11 +142,10 @@
     user: charmerDark
 - name: vm6502q/qrack
   data:
-  - title: '[unitaryHACK] Added syntax highlighting
-      and link to LICENSE in README'
+  - title: '[unitaryHACK] Added syntax highlighting and link to LICENSE in README'
     number: 780
     user: paniash
-    - name: QuantumBFS/Yao.jl
+- name: QuantumBFS/Yao.jl
   data:
   - title: Better display of docs [unitaryHACK]
     number: 283

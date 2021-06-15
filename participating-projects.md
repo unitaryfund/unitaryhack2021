@@ -71,8 +71,10 @@ You can watch some videos about Mitiq on the [Unitary Fund YouTube channel](http
 #### $25 each
 
 - [Add an XACC executor example and item to software list](https://github.com/unitaryfund/mitiq/issues/357)
-- [Warn users when their programs are too short](https://github.com/unitaryfund/mitiq/issues/275)
-- [Improve braket support](https://github.com/unitaryfund/mitiq/issues/679)
+- ~~[Warn users when their programs are too short](https://github.com/unitaryfund/mitiq/issues/275)~~
+  - **[Yash-10](https://github.com/Yash-10)** HACKED [Warning for short programs [unitaryHACK]](https://github.com/unitaryfund/mitiq/issues/275)
+- ~~[Improve braket support](https://github.com/unitaryfund/mitiq/issues/679)~~
+  - **[maxtremblay](https://github.com/maxtremblay)** HACKED [[UnitaryHACK] Improve conversion from braket to cirq](https://github.com/unitaryfund/mitiq/pull/688)
 
 ---
 
@@ -95,7 +97,8 @@ Strawberry Fields is a full-stack Python library for designing, simulating, and 
 ### Bounties
 
 #### $100 each
-- [Add a hybrid Gaussian/non-Gaussian compiler that merges Gaussian gates](https://github.com/XanaduAI/strawberryfields/issues/574)
+- ~~[Add a hybrid Gaussian/non-Gaussian compiler that merges Gaussian gates](https://github.com/XanaduAI/strawberryfields/issues/574)~~
+  - **[federico0112](https://github.com/federico0112)** HACKED [ [unitaryHACK] Strawberry Fields: Gaussian Merge](https://github.com/XanaduAI/strawberryfields/pull/591)
 
 ---
 ## [The Walrus](https://github.com/XanaduAI/thewalrus)
@@ -160,8 +163,10 @@ You can watch the Quantum Software Talk on QuNetSim on [YouTube](https://www.you
 
 #### $60 each
 
-- [Develop a user interface for QuNetSim](https://github.com/tqsd/QuNetSim/issues/82)
-- [Develop QKD protocols](https://github.com/tqsd/QuNetSim/issues/90)
+- ~~[Develop a user interface for QuNetSim](https://github.com/tqsd/QuNetSim/issues/82)~~
+  - **[andre-a-alves](https://github.com/andre-a-alves)** and **[MrRobot2211](https://github.com/MrRobot2211)** HACKED [Generate simple topologies [unitaryHACK]](https://github.com/tqsd/QuNetSim/pull/100)
+- ~~[Develop QKD protocols](https://github.com/tqsd/QuNetSim/issues/90)~~  
+  - **[pirtamsinha2304](https://github.com/pirtamsinha2304)**, **[sashofthedark](https://github.com/sashofthedark)**, and **[fvista](https://github.com/fvista)** HACKED this bounty with many PRs, see the [results page](https://unitaryfund.github.io/unitaryhack/results.html) for them all
 - ~~[Develop a more complex templating script](https://github.com/tqsd/QuNetSim/issues/52)~~
   - **[andre-a-alves](https://github.com/andre-a-alves)** HACKED [Templater upgrade [unitaryHACK]](https://github.com/tqsd/QuNetSim/pull/105)
 - [Develop an example of a second generation quantum repeater](https://github.com/tqsd/QuNetSim/issues/91)
@@ -198,7 +203,8 @@ results, according to a variety of NIST standards.
 
 #### $100 each
 - [Cirq support](https://github.com/pedrorrivero/qrand/issues/1)
-- [Q# support](https://github.com/pedrorrivero/qrand/issues/2)
+- ~~[Q# support](https://github.com/pedrorrivero/qrand/issues/2)~~
+  - **[Avhijit-codeboy](https://github.com/Avhijit-codeboy)** HACKED [[unitaryHACK] (#2) Qsharp support](https://github.com/pedrorrivero/qrand/pull/17)
 
 #### $50 each
 - [Entropy validation suite](https://github.com/pedrorrivero/qrand/issues/3)
@@ -259,7 +265,8 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 
 #### $100 each
 - [Add Support for Simulation in XY Mode](https://github.com/pasqal-io/Pulser/issues/147)
-- [Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)
+- ~~[Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)~~
+  - **[LaurentAjdnik](https://github.com/LaurentAjdnik)** and **[TripleR47](https://github.com/zv)** HACKED this bounty with many PRs, see the [results page](https://unitaryfund.github.io/unitaryhack/results.html) for them all
 
 #### $50
 - ~~[Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)~~
@@ -275,7 +282,8 @@ You can watch the Quantum Software Talk on QCOR and XACC on [YouTube](https://ww
 ### Bounties
 
 #### $25
-- [API for command-line argument parsing](https://github.com/ornl-qci/qcor/issues/123)
+- ~~[API for command-line argument parsing](https://github.com/ornl-qci/qcor/issues/123)~~
+  - **[amirebrahimi](https://github.com/amirebrahimi)** HACKED [Add argument parsing [unitaryHACK]](https://github.com/ORNL-QCI/qcor/pull/160)
 - [Improved CMake Target Exporting and Downstream Quantum-Classical add_executable()](https://github.com/ornl-qci/qcor/issues/101)
 
 #### $50
@@ -296,7 +304,8 @@ You can watch the Quantum Software Talk on QCOR and XAAC on [YouTube](https://ww
 ### Bounties
 
 #### $50
-- [xacc::getAccelerator("ibm") automatic backend selection based on jobs in the queue](https://github.com/eclipse/xacc/issues/441)
+- ~~[xacc::getAccelerator("ibm") automatic backend selection based on jobs in the queue](https://github.com/eclipse/xacc/issues/441)~~
+  - **[flatslm](https://github.com/flatslm)** HACKED [Ibmq accelerator select lowest queue backend: resolve #441 [unitaryHACK] ](https://github.com/eclipse/xacc/pull/451)
 
 #### $100
 - [Flexible Instruction Simulation](https://github.com/eclipse/xacc/issues/442)
@@ -311,11 +320,16 @@ Yao is an open source framework that aims to empower quantum information researc
 ### Bounties
 
 #### $50
-- [integration with PastaQ](https://github.com/QuantumBFS/Yao.jl/issues/280)
+- ~~[integration with PastaQ](https://github.com/QuantumBFS/Yao.jl/issues/280)~~
+  - **[VarLad](https://github.com/VarLad)** HACKED [Create YaoTreeToPastaQList.jl](https://github.com/QuantumBFS/YaoPastaQ.jl/pull/1)
 
 #### $100
-- [integrate YaoBlocks with IBMQClient and OpenQASM](https://github.com/QuantumBFS/Yao.jl/issues/279)
-- [webpage (tutorial/documentation/etc.) pipeline improvements](https://github.com/QuantumBFS/Yao.jl/issues/278)
+- ~~[integrate YaoBlocks with IBMQClient and OpenQASM](https://github.com/QuantumBFS/Yao.jl/issues/279)~~
+  - **[Sov-trotter](https://github.com/Sov-trotter)** HACKED by creating [QuantumBFS/YaoBlocksQobj.jl](https://github.com/QuantumBFS/YaoBlocksQobj.jl) and [QuantumBFS/YaoBlocksQASM.jl](https://github.com/QuantumBFS/QuantumBFS/YaoBlocksQASM.jl)
+
+- ~~[webpage (tutorial/documentation/etc.) pipeline improvements](https://github.com/QuantumBFS/Yao.jl/issues/278)~~
+  - **[VarLad](https://github.com/VarLad)** HACKED [Fixed the tutorials](https://github.com/QuantumBFS/QuantumBFS.github.io/pull/9)
+
 
 ---
 
@@ -326,7 +340,8 @@ The Quantum Open Source Foundation (QOSF) Monthly Challenges aim to help partici
 ### Bounties
 
 #### $25
-- [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)
+- ~~[Design a challenge!](https://github.com/qosf/monthly-challenges/issues/33)~~
+  - **[MaldoAlberto](https://github.com/MaldoAlberto)** HACKED [add Challenge 7 [unitaryHACK]](https://github.com/qosf/monthly-challenges/pull/39)
 - [Design a challenge!](https://github.com/qosf/monthly-challenges/issues/34)
 
 ---

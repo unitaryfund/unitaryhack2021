@@ -2,9 +2,27 @@
 layout: page
 title:
 ---
-<h3><label for="file"><strong>Final # of hacks completed: 60+ 🎉</strong><br>🏆 The <a href="https://unitaryfund.github.io/unitaryhack/results.html">full results</a> 🏆</label></h3>
 
-<progress id="prs" max="50" value="60" style="width:100%;height:40px;"> 60/50 </progress>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;text-align:center;font-size:large;}
+.tg td{border-color:yellow;border-style:none;border-width:1px;
+  overflow:hidden;padding:5px 5px;word-break:normal;text-align:center;font-size:large;}
+.tg th{background-color:yellow;border-style:none;border-width:1px;
+  overflow:hidden;padding:5px 5px;word-break:normal;text-align:center;font-size:large;}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <th colspan="2">🏆 <a href="https://unitaryfund.github.io/unitaryhack/results.html">Full results</a> 🏆</th>
+  </tr>
+  <tr>
+    <td>🎉 Hacks completed: 64 </td>
+    <td>💰 Bounties awarded: 26 </td>
+  </tr>
+</tbody>
+</table>
+
+<!-- <progress id="prs" max="50" value="60" style="width:100%;height:40px;"> 60/50 </progress> -->
 
 <br>
 
@@ -89,7 +107,7 @@ title:
 
 - 🎁 Random participants that make 1 **quality** Pull Request (PR)s to a participating open source project will receive a [swag pack in the mail!*](./rules.md)
 
-<button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://airtable.com/embed/shrTG20PLC5cjVIPr'"><b>SIGN UP HERE!</b></button>
+<!-- <button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://airtable.com/embed/shrTG20PLC5cjVIPr'"><b>SIGN UP HERE!</b></button> -->
 
 ### Need help getting started or unstuck?
 

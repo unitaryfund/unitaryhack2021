@@ -4,99 +4,115 @@
   data:
   - title: Warn users when their programs are too short
     number: 275
-    user: karalekas
+    user: Yash-10
   - title: Add braket support via rudimentary translator
     number: 590
-    user: rmlarose
+    user: maxtremblay
 - name: XanaduAI/strawberryfields
   data:
   - title: '[unitaryhack] Add a hybrid Gaussian/non-Gaussian
       compiler that merges Gaussian gates'
     number: 574
-    user: josh146
+    user: federico0112
 - name: vprusso/toqito
   data:
   - title: 'Feature: NPA hierarchy'
     number: 5
-    user: vprusso
+    user: georgios-ts
   - title: 'Feature: Convert description of a binary
       constraint game to a nonlocal game'
     number: 44
-    user: vprusso
+    user: theRoughCode
 - name: scirate/scirate
   data:
   - title: make a twitter/discord bot that posts the
       top papers each day
     number: 430
-    user: silky
+    user: infiniteregrets
 - name: tqsd/QuNetSim
   data:
   - title: Develop a user interface for building the
       network topology
     number: 82
-    user: stephendiadamo
+    user: andre-a-alves
+  - title: Develop a user interface for building the
+      network topology
+    number: 82
+    user: MrRobot2211
   - title: Improve the Templater script to be more customizable
     number: 52
-    user: stephendiadamo
+    user: andre-a-alves
+  - title: Implement various QKD protocols.
+    number: 90
+    user: pirtamsinha2304
+  - title: Implement various QKD protocols.
+    number: 90
+    user: sashofthedark 
+  - title: Implement various QKD protocols.
+    number: 90
+    user: fvista
 - name: pedrorrivero/qrand
   data:
   - title: Q# support
     number: 2
-    user: pedrorrivero
-- name: vm6502q/qrack
-  data:
-  - title: 'Feature: Cirq plugin'
-    number: 678
-    user: WrathfulSpatula
+    user: Avhijit-codeboy
 - name: qutip/qutip
   data:
   - title: ffmpeg command from User Guide gives an error
     number: 799
-    user: tilek
+    user: Yash-10
   - title: Bloch sphere requires matplotlib >= 3.3
     number: 1502
-    user: jakelishman
+    user: Yash-10
   - title: matplotlib 3.4 issues new deprecation warnings
     number: 1503
-    user: jakelishman
+    user: Yash-10
 - name: pasqal-io/Pulser
   data:
   - title: Add type hints, and use mypy to enforce in
       CI
     number: 16
-    user: karalekas
+    user: LaurentAjdnik
+  - title: Add type hints, and use mypy to enforce in
+      CI
+    number: 16
+    user: TripleR47
   - title: Display area and phase of pulse on it
     number: 149
-    user: romainfd
+    user: Yash-10
 - name: ornl-qci/qcor
   data:
   - title: qcor api for argument parsing
     number: 123
-    user: amccaskey
+    user: amirebrahimi
 - name: eclipse/xacc
   data:
   - title: xacc::getAccelerator("ibm") automatic backend
       selection based on jobs in the queue
     number: 441
-    user: amccaskey
+    user: flatslm
 - name: QuantumBFS/Yao.jl
   data:
   - title: PastaQ integration
     number: 280
-    user: Roger-luo
+    user: VarLad
+  - title: webpage (tutorial/documentation/etc.) pipeline improvements
+    number: 278
+    user: VarLad
+  - title: integrate YaoBlocks with IBMQClient and OpenQASM
+    number: 279
+    user: Sov-trotter
+
 - name: qosf/monthly-challenges
   data:
   - title: Design a monthly challenge (bounty)
     number: 33
-    user: amirebrahimi
-  - title: Design a monthly challenge (bounty)
-    number: 34
-    user: amirebrahimi
+    user: MaldoAlberto
 - name: dde/qqcs
   data:
   - title: 'Add a command line switch to display sparse
       matrices with periods (.) replacing zero elements
       (0). '
     number: 18
-    user: dde
+    user: WingCode
 
