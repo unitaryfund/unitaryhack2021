@@ -10,6 +10,17 @@ title:
 .tg th{background-color:yellow;border-style:none;border-width:1px;
   overflow:hidden;padding:5px 5px;word-break:normal;text-align:center;font-size:large;}
 </style>
+
+<table class="tg">
+<tbody>
+  <tr>
+    <th colspan="2">Check out unitaryHACK 2022 at <a href="https://unitaryhack.dev">https://unitaryhack.dev</a> and its Github Repo <a href="https://github.com/unitaryfund/unitaryhackdev">here</a>.</th>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
 <table class="tg">
 <tbody>
   <tr>
