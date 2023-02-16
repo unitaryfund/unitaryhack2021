@@ -14,16 +14,6 @@ title:
 <table class="tg">
 <tbody>
   <tr>
-    <th colspan="2">Check out what's going on with the latest installment of unitaryHACK at <a href="https://unitaryhack.dev">https://unitaryhack.dev</a>.</th>
-  </tr>
-</tbody>
-</table>
-
-<br>
-
-<table class="tg">
-<tbody>
-  <tr>
     <th colspan="2">🏆 <a href="./results.html">Full results</a> 🏆</th>
   </tr>
   <tr>
