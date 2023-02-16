@@ -14,7 +14,7 @@ title:
 <table class="tg">
 <tbody>
   <tr>
-    <th colspan="2">Check out unitaryHACK 2022 at <a href="https://unitaryhack.dev">https://unitaryhack.dev</a> and its Github Repo <a href="https://github.com/unitaryfund/unitaryhackdev">here</a>.</th>
+    <th colspan="2">Check out what's going on with the latest installment of unitaryHACK at <a href="https://unitaryhack.dev">https://unitaryhack.dev</a>.</th>
   </tr>
 </tbody>
 </table>

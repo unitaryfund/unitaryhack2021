@@ -1,5 +1,8 @@
-## Check out unitaryHACK 2022 at https://unitaryhack.dev/ and its Github Repo [here](https://github.com/unitaryfund/unitaryhackdev). 
+**For news about the latest installment of UnitaryHACK, visit https://unitaryhack.dev/!**
 
+---
+
+# UnitaryHACK 2021
 
 <figure>
 <img style="max-width: 60%;
