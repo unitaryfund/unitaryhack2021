@@ -166,7 +166,7 @@ You can watch the Quantum Software Talk on QuNetSim on [YouTube](https://www.you
 - ~~[Develop a user interface for QuNetSim](https://github.com/tqsd/QuNetSim/issues/82)~~
   - **[andre-a-alves](https://github.com/andre-a-alves)** and **[MrRobot2211](https://github.com/MrRobot2211)** HACKED [Generate simple topologies [unitaryHACK]](https://github.com/tqsd/QuNetSim/pull/100)
 - ~~[Develop QKD protocols](https://github.com/tqsd/QuNetSim/issues/90)~~  
-  - **[pirtamsinha2304](https://github.com/pirtamsinha2304)**, **[sashofthedark](https://github.com/sashofthedark)**, and **[fvista](https://github.com/fvista)** HACKED this bounty with many PRs, see the [results page](https://unitaryfund.github.io/unitaryhack/results.html) for them all
+  - **[pirtamsinha2304](https://github.com/pirtamsinha2304)**, **[sashofthedark](https://github.com/sashofthedark)**, and **[fvista](https://github.com/fvista)** HACKED this bounty with many PRs, see the [results page](./results.md) for them all
 - ~~[Develop a more complex templating script](https://github.com/tqsd/QuNetSim/issues/52)~~
   - **[andre-a-alves](https://github.com/andre-a-alves)** HACKED [Templater upgrade [unitaryHACK]](https://github.com/tqsd/QuNetSim/pull/105)
 - [Develop an example of a second generation quantum repeater](https://github.com/tqsd/QuNetSim/issues/91)
@@ -266,7 +266,7 @@ Pulser is a Python library for programming neutral-atom quantum devices at the p
 #### $100 each
 - [Add Support for Simulation in XY Mode](https://github.com/pasqal-io/Pulser/issues/147)
 - ~~[Add type hints, and mypy CI tests](https://github.com/pasqal-io/Pulser/issues/16)~~
-  - **[LaurentAjdnik](https://github.com/LaurentAjdnik)** and **[TripleR47](https://github.com/zv)** HACKED this bounty with many PRs, see the [results page](https://unitaryfund.github.io/unitaryhack/results.html) for them all
+  - **[LaurentAjdnik](https://github.com/LaurentAjdnik)** and **[TripleR47](https://github.com/zv)** HACKED this bounty with many PRs, see the [results page](./results.md) for them all
 
 #### $50
 - ~~[Option to display pulses' areas and phases on a plot](https://github.com/pasqal-io/Pulser/issues/149)~~

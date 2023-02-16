@@ -20,7 +20,8 @@
 
 - 🎁 Random participants that make 1 **quality** Pull Request (PR)s to a participating open source project got a [swag pack in the mail!*](./rules.md)
 
-<button style="max-width: 60%;height: auto; margin: auto;display: block;background-color:#ffff00;border-width:0em;font:'Lucida Console', monospace, !default;font-size:2em;" type="button" onclick="location='https://unitaryfund.github.io/unitaryhack/results.html'"><b>RESULTS HERE!</b></button>
+
+[RESULTS HERE!](https://2021.unitaryhack.dev/results.html)
 
 ### Thanks to our supporters
 

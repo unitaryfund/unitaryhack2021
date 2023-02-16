@@ -24,7 +24,7 @@ title:
 <table class="tg">
 <tbody>
   <tr>
-    <th colspan="2">🏆 <a href="https://unitaryfund.github.io/unitaryhack/results.html">Full results</a> 🏆</th>
+    <th colspan="2">🏆 <a href="./results.html">Full results</a> 🏆</th>
   </tr>
   <tr>
     <td>🎉 Hacks completed: 64 </td>
