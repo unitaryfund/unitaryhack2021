@@ -44,7 +44,7 @@ jobs:
       #    name: GitHub Results
       #    path: _data
       - name: Build the website 
-        run:  bundle exec jekyll build --baseurl /unitaryhack
+        run:  bundle exec jekyll build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v1.1.0
         env:
