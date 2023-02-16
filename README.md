@@ -17,7 +17,7 @@
 
 ### The Unitary Fund was proud to host our first quantum open source hackathon with SWAG and BOUNTIES on **May 14-30th**!
 
-- 💰 Over $K in bounties for tagged issues in quantum open source projects
+- 💰 Over $2K in bounties for tagged issues in quantum open source projects
 
 - 💿 Digital swag for all participants that make approved Pull Requests (PR)s
 
